@@ -3,25 +3,22 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
-class Teste {
+class TestePetShop {
 
-	@Test
-	void test() {
-		
-		SalaAula fatec = new SalaAula();
-		
-		Aluno joao = new Aluno("Joao", "54321");
-		Aluno jose = new Aluno("Jose", "12345");
-		
-		fatec.cadastrarAluno(joao);
-		fatec.cadastrarAluno(jose);
-		
-		assertEquals(fatec.getAlunos().size(), 2);
-		
-		List<Aluno> joseses = fatec.buscarAlunoPorNome("Jose");
-		assertEquals(joseses.get(0).getRa(), jose.getRa());
-		
-		
-	}
-
+    @Test
+    void test() {
+        
+        PetShop petShop = new PetShop();
+        
+        Pet helloKitty = new Pet("Hello Kitty", "Gatinho");
+        Pet melody = new Pet("Melody", "Cachorrinho");
+        
+        petShop.cadastrarPet(helloKitty);
+        petShop.cadastrarPet(melody);
+        
+        assertEquals(petShop.getPets().size(), 2);
+        
+        List<Pet> melodyPets = petShop.buscarPetPorNome("Melody");
+        assertEquals(melodyPets.get(0).getTipo(), melody.getTipo());
+    }
 }
