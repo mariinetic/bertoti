@@ -24,26 +24,33 @@ Cite 3 exemplos de trade off que foram ou não citados anteriormente na aula
 ```bash
 public class Pet {
     
-    private String nome;  ### Aqui crio tipo e nome
+    ## Definindo as características básicas do pet: nome e tipo
+    private String nome;  
     private String tipo;
     
-    public Pet(String nome, String tipo) {  ### Usando o this eu referencio as variaveis
+    ## Construtor para inicializar o nome e o tipo do pet. 
+    ## Usamos 'this' para deixar claro que estamos referenciando os atributos da classe.
+    public Pet(String nome, String tipo) {  
         this.nome = nome;
         this.tipo = tipo;
     }
     
+    ## Método para obter o nome do pet.
     public String getNome() {
         return nome;
     }
     
+    ## Método para alterar o nome do pet.
     public void setNome(String nome) {
         this.nome = nome;
     }
     
+    ## Método para obter o tipo do pet.
     public String getTipo() {
         return tipo;
     }
     
+    ## Método para alterar o tipo do pet.
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
@@ -51,26 +58,31 @@ public class Pet {
 ```
 ### Classe PetShop
 ```bash
-import java.util.List;
+import java.util.List;  
 import java.util.LinkedList;
 
 public class PetShop {
 
+    ## Criando uma lista pra poder aguardar todos os pets cadastrados no PetShop.
     private List<Pet> pets = new LinkedList<Pet>();
     
+    ## Método para cadastrar um novo pet no PetShop.
     public void cadastrarPet(Pet pet) {
-        pets.add(pet);
+        pets.add(pet); // Adiciona o pet à lista dos pets.
     }
     
+    ## Método para buscar pets pelo nome.
+    ## Se tiver mais de um pet com o mesmo nome, todos vão ser retornados.
     public List<Pet> buscarPetPorNome(String nome){
-        List<Pet> petsEncontrados = new LinkedList<Pet>();
-        for(Pet pet : pets) {
-            if(pet.getNome().equals(nome)) 
-                petsEncontrados.add(pet);
+        List<Pet> petsEncontrados = new LinkedList<Pet>(); ## Lista para guardar os pets encontrados.
+        for(Pet pet : pets) {  ## anda pela lista de pets cadastrados.
+            if(pet.getNome().equals(nome)) ## Verifica se o nome do pet corresponde ao nome buscado.
+                petsEncontrados.add(pet); ## Adiciona o pet encontrado à lista de pets encontrados.
         }
-        return petsEncontrados;
+        return petsEncontrados; ## Retorna a lista de pets encontrados.
     }
     
+    ## Método para obter a lista completa de todos os pets cadastrados no PetShop.
     public List<Pet> getPets(){
         return pets;
     }
@@ -78,7 +90,7 @@ public class PetShop {
 ```
 ### Classe Teste
 ```bash
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.*;  
 import java.util.List;
 
 import org.junit.jupiter.api.Test;
@@ -88,18 +100,24 @@ class TestePetShop {
     @Test
     void test() {
         
-        PetShop petShop = new PetShop(); ### Crio um novo petshop
+        ## Crio um novo petshop, onde vou cadastrar os pets para os testes.
+        PetShop petShop = new PetShop(); 
         
-        Pet helloKitty = new Pet("Hello Kitty", "Gatinho"); ### Crio e nomeio dois novos pets
+        ## Crio e nomeio dois novos pets: um gatinho chamado Hello Kitty e um cachorrinho chamado Melody.
+        Pet helloKitty = new Pet("Hello Kitty", "Gatinho"); 
         Pet melody = new Pet("Melody", "Cachorrinho");
         
+        ## Cadastro os pets no petshop.
         petShop.cadastrarPet(helloKitty);
         petShop.cadastrarPet(melody);
         
+        ## Verifico se o número de pets cadastrados no petshop é 2.
         assertEquals(petShop.getPets().size(), 2);
         
+        ## Busco o pet chamado Melody e verifico se o tipo dele é o mesmo que foi definido inicialmente (Cachorrinho).
         List<Pet> melodyPets = petShop.buscarPetPorNome("Melody");
         assertEquals(melodyPets.get(0).getTipo(), melody.getTipo());
     }
+}
 }
 
