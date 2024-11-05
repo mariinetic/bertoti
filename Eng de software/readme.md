@@ -121,3 +121,6 @@ class TestePetShop {
 }
 }
 
+```
+### 01/11 - 4) Atividade diagrama de classes uml
+![Atividade 04-ENGSOFTW](https://github.com/user-attachments/assets/cc25d01e-f6e6-4b00-b4f3-fd5ba0c8465a)
