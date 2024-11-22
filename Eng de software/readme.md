@@ -123,4 +123,8 @@ class TestePetShop {
 
 ```
 ### 01/11 - 4) Atividade diagrama de classes uml
-![Atividade 04-ENGSOFTW](https://github.com/user-attachments/assets/cc25d01e-f6e6-4b00-b4f3-fd5ba0c8465a)
+![Captura de tela 2024-11-22 203734](https://github.com/user-attachments/assets/6091383e-cc97-4d82-8f69-b316b74c3cd1)
+
+### 22/11 - 5) Aprsentação do BOT com Ollama
+
+https://github.com/thiagosabreu/TelegramChatBotWithOllama
