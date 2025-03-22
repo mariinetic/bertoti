@@ -39,7 +39,7 @@ function fetchBolsas() {
       container.innerHTML = '';
       bolsas.forEach(bolsa => {
         const div = document.createElement('div');
-        div.classList.add('bag-item');
+        div.classList.add('bag-card');
         div.innerHTML = `
           <h3>${bolsa.nome}</h3>
           <img src="${bolsa.imagemUrl}" alt="${bolsa.nome}" class="bag-image"/>
@@ -78,6 +78,13 @@ function createBolsa() {
   const preco = document.getElementById('bolsa-price').value;
   const imagemUrl = document.getElementById('bolsa-image').value;
 
+  // Validação simples
+  if (!nome || !preco || !imagemUrl) {
+    alert('Por favor, preencha todos os campos.');
+    return;
+  }
+
+  // Enviando os dados para a API
   fetch(API_URL, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -89,7 +96,7 @@ function createBolsa() {
   })
   .then(() => {
     alert('Bolsa criada com sucesso!');
-    window.location.href = 'index.html';
+    window.location.href = 'index.html'; // Redireciona para a página principal
   })
   .catch(error => console.error(error));
 }
@@ -111,7 +118,7 @@ function updateBolsa() {
   })
   .then(() => {
     alert('Bolsa editada com sucesso!');
-    window.location.href = 'index.html';
+    window.location.href = 'index.html'; // Redireciona para a página principal
   })
   .catch(error => console.error(error));
 }
@@ -125,7 +132,7 @@ function deleteBolsa(id) {
     })
     .then(() => {
       alert('Bolsa deletada com sucesso!');
-      fetchBolsas();
+      fetchBolsas(); // Atualiza a lista de bolsas
     })
     .catch(error => console.error(error));
 }

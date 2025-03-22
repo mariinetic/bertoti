@@ -1,119 +1,221 @@
 /* Estilo Básico */
 body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fce4f1; /* Fundo rosa claro fofo */
+  color: #333;
+  transition: all 0.5s ease;
+  animation: fadeIn 1s ease-out;
+}
+
+/* Logo com Gatinho Fofo */
+header .logo-cat, footer .footer-cat {
+  border-radius: 50%;
+  margin-top: 10px;
+  animation: floatCat 1.5s ease-in-out infinite alternate;
+}
+
+/* Animação do Gatinho Flutuando */
+@keyframes floatCat {
+  0% {
+    transform: translateY(0);
   }
-  
-  header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
+  100% {
+    transform: translateY(-10px);
   }
-  
-  header .logo h1 {
-    font-family: 'Playfair Display', serif;
-    margin: 0;
+}
+
+header {
+  background-color: #ff85b3; /* Rosa suave para o cabeçalho */
+  padding: 40px 20px;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-bottom: 8px solid #ff66a3;
+  border-radius: 0 0 30px 30px;
+  animation: floatHeader 2s ease-in-out infinite alternate;
+}
+
+header .logo h1 {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: 3.5rem;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+header .logo p {
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+/* Animação Header */
+@keyframes floatHeader {
+  0% {
+    transform: translateY(0);
   }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
+  100% {
+    transform: translateY(-10px);
   }
-  
-  nav ul li {
-    display: inline;
-    margin: 0 15px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 15px 25px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+  background-color: white;
+  color: #ff66a3;
+  transform: scale(1.1) rotate(-5deg);
+}
+
+/* Estilo do Formulário de Adicionar Bolsa */
+.form-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  animation: popIn 1s ease-out;
+}
+
+.form-container h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: #ff66a3;
+  margin-bottom: 20px;
+}
+
+.bolsa-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: #ff66a3;
+  outline: none;
+}
+
+button[type="submit"] {
+  background-color: #ff66a3;
+  color: white;
+  padding: 12px 25px;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #ff3385;
+  transform: scale(1.1);
+}
+
+/* Animação de "popIn" para o formulário */
+@keyframes popIn {
+  0% {
+    transform: scale(0);
   }
-  
-  nav ul li a {
-    color: white;
-    text-decoration: none;
+  60% {
+    transform: scale(1.1);
   }
-  
-  .bags-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 20px;
+  100% {
+    transform: scale(1);
   }
-  
-  .bag-card {
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 10px;
-    width: 250px;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .bag-card button {
-    background-color: #e74c3c;
-    color: white;
-    padding: 5px 10px;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    margin-top: 10px;
-  }
-  
-  .bag-card button:hover {
-    background-color: #c0392b;
-  }
-  
+}
+
+/* Footer */
+footer {
+  background-color: #ff85b3;
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+  font-size: 1.1rem;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+  border-top: 8px solid #ff66a3;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
   .form-container {
-    background-color: white;
-    padding: 30px;
-    margin: 40px auto;
-    max-width: 500px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    text-align: center;
+    padding: 15px;
   }
-  
-  form input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    border: 1px solid #ddd;
+
+  .form-container h2 {
+    font-size: 1.8rem;
   }
-  
-  button {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+
+  .form-group input {
+    font-size: 1rem;
   }
-  
-  button:hover {
-    background-color: #555;
+
+  button[type="submit"] {
+    font-size: 1.1rem;
   }
-  
-  /* Responsividade */
-  @media (max-width: 768px) {
-    .bag-card {
-      width: 100%;
-      margin: 10px 0;
-    }
-  
-    header {
-      padding: 15px;
-    }
-  
-    nav ul {
-      display: block;
-      text-align: center;
-    }
-  
-    nav ul li {
-      display: block;
-      margin: 10px 0;
-    }
+}
+
+@media (max-width: 480px) {
+  .form-container {
+    width: 90%;
   }
-  
+
+  .form-container h2 {
+    font-size: 1.6rem;
+  }
+
+  .form-group input {
+    font-size: 0.9rem;
+  }
+
+  button[type="submit"] {
+    font-size: 1rem;
+  }
+}
