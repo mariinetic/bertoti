@@ -32,4 +32,5 @@ Siga os passos abaixo para executar o projeto em sua máquina local:
 1. **Clone o repositório**:
 
    ```bash
-   git clone https://seu-repositorio-link.git
+   git clone https://github.com/bertoti/Lab-III.git
+
