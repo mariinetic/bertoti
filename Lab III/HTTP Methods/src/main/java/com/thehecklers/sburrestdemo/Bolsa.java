@@ -2,6 +2,7 @@ package com.thehecklers.sburrestdemo;
 
 import java.util.UUID;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
@@ -9,8 +10,13 @@ import javax.persistence.Id;
 public class Bolsa {
     @Id
     private String id;
+
     private String nome;
+
+    @Column(name = "imagem_url")
     private String imagemUrl;
+
+    @Column(name = "preco")
     private String preco;
 
     public Bolsa() {}
@@ -27,35 +33,15 @@ public class Bolsa {
     }
 
     // Getters e setters
-    public String getId() {
-        return id;
-    }
+    public String getId() { return id; }
+    public void setId(String id) { this.id = id; }
 
-    public void setId(String id) {
-        this.id = id;
-    }
+    public String getNome() { return nome; }
+    public void setNome(String nome) { this.nome = nome; }
 
-    public String getNome() {
-        return nome;
-    }
+    public String getImagemUrl() { return imagemUrl; }
+    public void setImagemUrl(String imagemUrl) { this.imagemUrl = imagemUrl; }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getImagemUrl() {
-        return imagemUrl;
-    }
-
-    public void setImagemUrl(String imagemUrl) {
-        this.imagemUrl = imagemUrl;
-    }
-
-    public String getPreco() {
-        return preco;
-    }
-
-    public void setPreco(String preco) {
-        this.preco = preco;
-    }
+    public String getPreco() { return preco; }
+    public void setPreco(String preco) { this.preco = preco; }
 }

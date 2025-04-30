@@ -3,10 +3,13 @@ body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fce4f1; /* Fundo rosa claro fofo */
+  background-color: #fce4f1; /* Rosa claro fofo */
   color: #333;
   transition: all 0.5s ease;
   animation: fadeIn 1s ease-out;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /* Logo com Gatinho Fofo */
@@ -26,6 +29,7 @@ header .logo-cat, footer .footer-cat {
   }
 }
 
+/* Header Estilo de Game */
 header {
   background-color: #ff85b3; /* Rosa suave para o cabeçalho */
   padding: 40px 20px;
@@ -36,6 +40,7 @@ header {
   border-bottom: 8px solid #ff66a3;
   border-radius: 0 0 30px 30px;
   animation: floatHeader 2s ease-in-out infinite alternate;
+  background: linear-gradient(135deg, #ff66a3, #ff85b3);
 }
 
 header .logo h1 {
@@ -63,6 +68,7 @@ header .logo p {
   }
 }
 
+/* Navegação estilo Game */
 nav ul {
   list-style: none;
   padding: 0;
@@ -80,7 +86,7 @@ nav ul li a {
   padding: 15px 25px;
   border-radius: 30px;
   background-color: rgba(255, 255, 255, 0.3);
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
   font-size: 1.1rem;
 }
 
@@ -88,9 +94,199 @@ nav ul li a:hover {
   background-color: white;
   color: #ff66a3;
   transform: scale(1.1) rotate(-5deg);
+  box-shadow: 0 0 10px 4px rgba(255, 102, 163, 0.7);
 }
 
-/* Estilo do Formulário de Adicionar Bolsa */
+/* Cards de Bolsa estilo Game */
+.bag-card {
+  background: linear-gradient(135deg, #ff66a3, #ff85b3);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  animation: slideIn 0.5s ease-out;
+}
+
+.bag-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px 4px rgba(255, 102, 163, 0.6);
+  opacity: 1;
+}
+
+.bag-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  transform: rotate(10deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.bag-card:hover img {
+  transform: rotate(0deg);
+}
+
+.bag-card h3 {
+  font-size: 1.8rem;
+  color: white;
+  margin: 10px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.bag-card p {
+  font-size: 1.1rem;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.bag-card .price {
+  font-size: 1.4rem;
+  color: #ffddff;
+  font-weight: bold;
+}
+
+/* Botões de Interação */
+.bag-card .button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.bag-card .button-container button {
+  background-color: #ff66a3 !important;
+  color: white !important;
+  font-size: 1.1rem !important;
+  border: none !important;
+  padding: 10px 15px !important;
+  border-radius: 30px !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s ease, transform 0.2s ease !important;
+  width: 45% !important;
+}
+
+.bag-card .button-container button:hover {
+  background-color: #ff3385 !important;
+  transform: scale(1.1) !important;
+}
+
+.bag-card .button-container .edit-button {
+  background-color: #ff66a3 !important;
+}
+
+.bag-card .button-container .delete-button {
+  background-color: #ff3385 !important;
+}
+
+/* Animação para o card de figurinha */
+@keyframes slideIn {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Footer */
+footer {
+  background-color: #ff85b3;
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+  font-size: 1.1rem;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+  border-top: 8px solid #ff66a3;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  header .logo h1 {
+    font-size: 2.5rem;
+  }
+
+  .bag-card h3 {
+    font-size: 1.6rem;
+  }
+
+  .bag-card p {
+    font-size: 1rem;
+  }
+
+  .bag-card .price {
+    font-size: 1.2rem;
+  }
+
+  .bags-container {
+    padding: 20px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  header .logo h1 {
+    font-size: 2rem;
+  }
+
+  .bag-card h3 {
+    font-size: 1.4rem;
+  }
+
+  .bag-card p {
+    font-size: 0.9rem;
+  }
+
+  .bag-card .price {
+    font-size: 1.1rem;
+  }
+
+  .bags-container {
+    padding: 20px 5px;
+  }
+}
+
+.bag-card button {
+  background-color: #ff2e85;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  margin: 5px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button[type="submit"] {
+  background-color: #ff66a3;
+  color: white;
+  padding: 12px 25px;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+button[type="submit"]:hover {
+  background-color: #ff3385;
+  transform: scale(1.1);
+  box-shadow: 0 0 15px 4px rgba(255, 51, 133, 0.7);
+}
+
+/* Formulário */
 .form-container {
   max-width: 600px;
   margin: 30px auto;
@@ -99,6 +295,7 @@ nav ul li a:hover {
   border-radius: 20px;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
   animation: popIn 1s ease-out;
+  border: 2px solid #ff66a3;
 }
 
 .form-container h2 {
@@ -106,6 +303,7 @@ nav ul li a:hover {
   text-align: center;
   color: #ff66a3;
   margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .bolsa-form {
@@ -129,33 +327,15 @@ nav ul li a:hover {
   border-radius: 15px;
   border: 1px solid #ddd;
   box-sizing: border-box;
-  transition: border-color 0.3s ease;
+  transition: border-color 0.3s ease, transform 0.2s ease;
 }
 
 .form-group input:focus {
   border-color: #ff66a3;
   outline: none;
+  transform: scale(1.05);
 }
 
-button[type="submit"] {
-  background-color: #ff66a3;
-  color: white;
-  padding: 12px 25px;
-  cursor: pointer;
-  border: none;
-  border-radius: 30px;
-  font-weight: bold;
-  font-size: 1.2rem;
-  margin-top: 20px;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-button[type="submit"]:hover {
-  background-color: #ff3385;
-  transform: scale(1.1);
-}
-
-/* Animação de "popIn" para o formulário */
 @keyframes popIn {
   0% {
     transform: scale(0);
@@ -165,57 +345,5 @@ button[type="submit"]:hover {
   }
   100% {
     transform: scale(1);
-  }
-}
-
-/* Footer */
-footer {
-  background-color: #ff85b3;
-  text-align: center;
-  padding: 20px 0;
-  color: white;
-  font-size: 1.1rem;
-  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
-  border-top: 8px solid #ff66a3;
-}
-
-footer p {
-  margin: 0;
-}
-
-/* Responsividade */
-@media (max-width: 768px) {
-  .form-container {
-    padding: 15px;
-  }
-
-  .form-container h2 {
-    font-size: 1.8rem;
-  }
-
-  .form-group input {
-    font-size: 1rem;
-  }
-
-  button[type="submit"] {
-    font-size: 1.1rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .form-container {
-    width: 90%;
-  }
-
-  .form-container h2 {
-    font-size: 1.6rem;
-  }
-
-  .form-group input {
-    font-size: 0.9rem;
-  }
-
-  button[type="submit"] {
-    font-size: 1rem;
   }
 }

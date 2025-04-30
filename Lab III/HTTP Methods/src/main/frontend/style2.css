@@ -1,0 +1,265 @@
+/* Estilo Geral */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fce4f1; /* Rosa suave */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header {
+    background-color: #ff85b3; /* Cabeçalho rosa suave */
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-bottom: 8px solid #ff66a3;
+  }
+  
+  header .logo h1 {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  header .logo p {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 1.1rem;
+  }
+  
+  nav ul li a:hover {
+    background-color: white;
+    color: #ff66a3;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 102, 163, 0.7);
+  }
+  
+  .bags-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    transition: all 0.5s ease;
+  }
+  
+  /* Card de Bolsa com efeito figurinha dinâmica */
+  .bag-card {
+    background: linear-gradient(135deg, #ff66a3, #ff85b3);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    animation: slideIn 0.5s ease-out;
+  }
+  
+  .bag-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px 4px rgba(255, 102, 163, 0.6);
+    opacity: 1;
+  }
+  
+  .bag-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transform: rotate(10deg);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .bag-card:hover img {
+    transform: rotate(0deg);
+  }
+  
+  .bag-card h3 {
+    font-size: 1.8rem;
+    color: white;
+    margin: 10px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .bag-card p {
+    font-size: 1.1rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .bag-card .price {
+    font-size: 1.4rem;
+    color: #ffddff;
+    font-weight: bold;
+  }
+  
+  /* Botões de Interação */
+  .bag-card .button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+  
+  .bag-card .button-container button {
+    background-color: #ff66a3 !important;
+    color: white !important;
+    font-size: 1.1rem !important;
+    border: none !important;
+    padding: 10px 15px !important;
+    border-radius: 30px !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s ease, transform 0.2s ease !important;
+    width: 45% !important;
+  }
+  
+  
+  .bag-card .button-container button:hover {
+    background-color: #ff3385 !important;
+    transform: scale(1.1) !important;
+  }
+  
+  .bag-card .button-container .edit-button {
+    background-color: #ff66a3 !important;
+  }
+  
+  .bag-card .button-container .delete-button {
+    background-color: #ff3385 !important;
+  }
+  .bag-card .button-container button {
+    background-color: #ff66a3 !important; /* Cor de fundo do botão */
+    color: white !important; /* Cor do texto */
+    font-size: 1.1rem !important; /* Tamanho da fonte */
+    border: none !important; /* Sem borda */
+    padding: 10px 15px !important; /* Espaçamento interno do botão */
+    border-radius: 30px !important; /* Bordas arredondadas */
+    cursor: pointer !important; /* Cursor como ponteiro ao passar o mouse */
+    transition: all 0.3s ease !important; /* Transição suave para hover e outras mudanças */
+    width: 45% !important; /* Largura do botão */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important; /* Sombra sutil */
+  }
+  
+  .bag-card .button-container button:hover {
+    background-color: #ff3385 !important; /* Cor do botão ao passar o mouse */
+    transform: scale(1.1) !important; /* Efeito de aumento ao passar o mouse */
+  }
+  
+  .bag-card .button-container button:active {
+    background-color: #ff1a5f !important; /* Cor do botão ao clicar */
+    transform: scale(1.05) !important; /* Leve diminuição ao clicar */
+  }
+  
+  
+  /* Animação para o card de figurinha */
+  @keyframes slideIn {
+    0% {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #ff85b3;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    font-size: 1.1rem;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    border-top: 8px solid #ff66a3;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    header .logo h1 {
+      font-size: 2.5rem;
+    }
+  
+    .bag-card h3 {
+      font-size: 1.6rem;
+    }
+  
+    .bag-card p {
+      font-size: 1rem;
+    }
+  
+    .bag-card .price {
+      font-size: 1.2rem;
+    }
+  
+    .bags-container {
+      padding: 20px 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header .logo h1 {
+      font-size: 2rem;
+    }
+  
+    .bag-card h3 {
+      font-size: 1.4rem;
+    }
+  
+    .bag-card p {
+      font-size: 0.9rem;
+    }
+  
+    .bag-card .price {
+      font-size: 1.1rem;
+    }
+  
+    .bags-container {
+      padding: 20px 5px;
+    }
+  }
+    /* Botões dentro do card */
+  .bag-card button {
+    background-color: #ff2e85;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    margin: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  

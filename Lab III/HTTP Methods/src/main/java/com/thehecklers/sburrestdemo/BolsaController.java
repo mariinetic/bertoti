@@ -2,6 +2,7 @@ package com.thehecklers.sburrestdemo;
 
 import java.util.Collection;
 import java.util.Optional;
+import java.util.UUID;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -35,11 +36,14 @@ public class BolsaController {
     public ResponseEntity<Bolsa> getBolsaById(@PathVariable String id) {
         Optional<Bolsa> bolsa = bolsaRepository.findById(id);
         return bolsa.map(ResponseEntity::ok)
-                    .orElseGet(() -> ResponseEntity.notFound().build());
+                .orElseGet(() -> ResponseEntity.notFound().build());
     }
 
     @PostMapping
     public ResponseEntity<Bolsa> postBolsa(@RequestBody Bolsa bolsa) {
+        if (bolsa.getId() == null || bolsa.getId().isEmpty()) {
+            bolsa.setId(UUID.randomUUID().toString()); // Gera o ID se não for enviado
+        }
         Bolsa savedBolsa = bolsaRepository.save(bolsa);
         return ResponseEntity.status(HttpStatus.CREATED).body(savedBolsa);
     }

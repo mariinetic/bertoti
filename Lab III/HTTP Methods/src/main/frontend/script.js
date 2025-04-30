@@ -75,30 +75,34 @@ function fetchBolsa(id) {
 
 function createBolsa() {
   const nome = document.getElementById('bolsa-name').value;
-  const preco = document.getElementById('bolsa-price').value;
+  const preco = document.getElementById('bolsa-price').value; // String. Se quiser como número, use parseFloat.
   const imagemUrl = document.getElementById('bolsa-image').value;
 
-  // Validação simples
   if (!nome || !preco || !imagemUrl) {
     alert('Por favor, preencha todos os campos.');
     return;
   }
 
-  // Enviando os dados para a API
+  const bolsa = { nome, preco, imagemUrl };
+  console.log('Enviando:', bolsa);
+
   fetch(API_URL, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ nome, preco, imagemUrl })
+    body: JSON.stringify(bolsa)
   })
-  .then(response => {
-    if (!response.ok) throw new Error('Erro ao criar bolsa');
-    return response.json();
-  })
-  .then(() => {
-    alert('Bolsa criada com sucesso!');
-    window.location.href = 'index.html'; // Redireciona para a página principal
-  })
-  .catch(error => console.error(error));
+    .then(response => {
+      if (!response.ok) throw new Error('Erro ao criar bolsa');
+      return response.json();
+    })
+    .then(() => {
+      alert('Bolsa criada com sucesso!');
+      window.location.href = 'index.html';
+    })
+    .catch(error => {
+      console.error(error);
+      alert('Erro ao criar bolsa. Veja o console para mais detalhes.');
+    });
 }
 
 function updateBolsa() {
@@ -107,20 +111,26 @@ function updateBolsa() {
   const preco = document.getElementById('edit-bolsa-price').value;
   const imagemUrl = document.getElementById('edit-bolsa-image').value;
 
+  const bolsa = { nome, preco, imagemUrl };
+  console.log('Atualizando:', bolsa);
+
   fetch(`${API_URL}/${id}`, {
     method: 'PUT',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ nome, preco, imagemUrl })
+    body: JSON.stringify(bolsa)
   })
-  .then(response => {
-    if (!response.ok) throw new Error('Erro ao editar bolsa');
-    return response.json();
-  })
-  .then(() => {
-    alert('Bolsa editada com sucesso!');
-    window.location.href = 'index.html'; // Redireciona para a página principal
-  })
-  .catch(error => console.error(error));
+    .then(response => {
+      if (!response.ok) throw new Error('Erro ao editar bolsa');
+      return response.json();
+    })
+    .then(() => {
+      alert('Bolsa editada com sucesso!');
+      window.location.href = 'index.html';
+    })
+    .catch(error => {
+      console.error(error);
+      alert('Erro ao editar bolsa. Veja o console para mais detalhes.');
+    });
 }
 
 function deleteBolsa(id) {
@@ -132,7 +142,10 @@ function deleteBolsa(id) {
     })
     .then(() => {
       alert('Bolsa deletada com sucesso!');
-      fetchBolsas(); // Atualiza a lista de bolsas
+      fetchBolsas();
     })
-    .catch(error => console.error(error));
+    .catch(error => {
+      console.error(error);
+      alert('Erro ao excluir bolsa. Veja o console para mais detalhes.');
+    });
 }
