@@ -44,7 +44,7 @@ function fetchBolsas() {
           <h3>${bolsa.nome}</h3>
           <img src="${bolsa.imagemUrl}" alt="${bolsa.nome}" class="bag-image"/>
           <p>ID: ${bolsa.id}</p>
-          <p>Preço: ${bolsa.preco}</p>
+          <p>Preço: R$ ${bolsa.preco}</p>
           <button onclick="editBolsa('${bolsa.id}')">Editar</button>
           <button onclick="deleteBolsa('${bolsa.id}')">Excluir</button>
         `;
@@ -75,11 +75,18 @@ function fetchBolsa(id) {
 
 function createBolsa() {
   const nome = document.getElementById('bolsa-name').value;
-  const preco = document.getElementById('bolsa-price').value; // String. Se quiser como número, use parseFloat.
+  const precoInput = document.getElementById('bolsa-price').value;
   const imagemUrl = document.getElementById('bolsa-image').value;
 
-  if (!nome || !preco || !imagemUrl) {
+  if (!nome || !precoInput || !imagemUrl) {
     alert('Por favor, preencha todos os campos.');
+    return;
+  }
+
+  const preco = parseFloat(precoInput);
+
+  if (isNaN(preco)) {
+    alert('Preço inválido. Digite um número.');
     return;
   }
 
@@ -108,8 +115,15 @@ function createBolsa() {
 function updateBolsa() {
   const id = document.getElementById('edit-bolsa-index').value;
   const nome = document.getElementById('edit-bolsa-name').value;
-  const preco = document.getElementById('edit-bolsa-price').value;
+  const precoInput = document.getElementById('edit-bolsa-price').value;
   const imagemUrl = document.getElementById('edit-bolsa-image').value;
+
+  const preco = parseFloat(precoInput);
+
+  if (!nome || !preco || !imagemUrl || isNaN(preco)) {
+    alert('Por favor, preencha todos os campos corretamente.');
+    return;
+  }
 
   const bolsa = { nome, preco, imagemUrl };
   console.log('Atualizando:', bolsa);

@@ -7,14 +7,7 @@ import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/bolsas")
@@ -42,7 +35,7 @@ public class BolsaController {
     @PostMapping
     public ResponseEntity<Bolsa> postBolsa(@RequestBody Bolsa bolsa) {
         if (bolsa.getId() == null || bolsa.getId().isEmpty()) {
-            bolsa.setId(UUID.randomUUID().toString()); // Gera o ID se não for enviado
+            bolsa.setId(UUID.randomUUID().toString());
         }
         Bolsa savedBolsa = bolsaRepository.save(bolsa);
         return ResponseEntity.status(HttpStatus.CREATED).body(savedBolsa);

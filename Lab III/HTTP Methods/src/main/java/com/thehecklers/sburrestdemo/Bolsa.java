@@ -1,10 +1,9 @@
 package com.thehecklers.sburrestdemo;
 
-import java.util.UUID;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import java.util.UUID;
 
 @Entity
 public class Bolsa {
@@ -17,22 +16,21 @@ public class Bolsa {
     private String imagemUrl;
 
     @Column(name = "preco")
-    private String preco;
+    private Double  preco;
 
     public Bolsa() {}
 
-    public Bolsa(String id, String nome, String imagemUrl, String preco) {
+    public Bolsa(String id, String nome, String imagemUrl, Double  preco) {
         this.id = id;
         this.nome = nome;
         this.imagemUrl = imagemUrl;
         this.preco = preco;
     }
 
-    public Bolsa(String nome, String imagemUrl, String preco) {
+    public Bolsa(String nome, String imagemUrl, Double  preco) {
         this(UUID.randomUUID().toString(), nome, imagemUrl, preco);
     }
 
-    // Getters e setters
     public String getId() { return id; }
     public void setId(String id) { this.id = id; }
 
@@ -42,6 +40,6 @@ public class Bolsa {
     public String getImagemUrl() { return imagemUrl; }
     public void setImagemUrl(String imagemUrl) { this.imagemUrl = imagemUrl; }
 
-    public String getPreco() { return preco; }
-    public void setPreco(String preco) { this.preco = preco; }
+    public Double  getPreco() { return preco; }
+    public void setPreco(Double  preco) { this.preco = preco; }
 }
