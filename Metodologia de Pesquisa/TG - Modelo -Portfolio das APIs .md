@@ -1,12 +1,12 @@
-# Coloque seu nome aqui
+# Mariana Oliveira
 
 ## Introdução
 
 Faça uma breve introdução sobre você. Fale de sua formação e carreira. Caso aplicável, fale de publicações ou apresentações em eventos da área de computação. Inclua uma foto!
 
 ## Contatos
-* [GIT](https://www.git.com)
-* [LinkedIn](https://www.linkedin.com)
+* [GIT](https://github.com/mariinetic)
+* [LinkedIn](https://www.linkedin.com/feed/)
 
 ## Meus Principais Conhecimentos
 Apresente seus principais conhecimentos. Foque nos conhecimentos que possui maior domínio e que deseja desenvolver durante sua carreira.
@@ -14,10 +14,10 @@ Apresente seus principais conhecimentos. Foque nos conhecimentos que possui maio
 
 ## Meus Projetos
 
-### Em 2021-2
+### Em 2025-1
 Fale sobre o projeto desenvolvido. Apresente a empresa parceira, o problema e a solução entregue pela equipe (mínimo de um parágrafo por item). Recomenda-se o uso de figuras (ou até mesmo vídeos) para ilustrar os principais projetos.
 
-[GIT](https://www.git.com)
+[GIT](https://github.com/Vortek-API/Parent)
 
 #### Tecnologias Utilizadas
 Apresente brevemente as tecnologias utilizadas. Uma tecnologia por linha. Indique qual a importância de cada tecnologia para o projeto.
