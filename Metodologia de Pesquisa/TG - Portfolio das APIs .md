@@ -17,7 +17,7 @@ Sou apaixonada por inovação e organização, acreditando no poder dos dados pa
 ## Contatos
 
 - [GitHub](https://github.com/mariinetic)  
-- [LinkedIn](https://www.linkedin.com/feed/)
+- [LinkedIn](https://www.linkedin.com/in/oliveirasmari/)
 
 ---
 
