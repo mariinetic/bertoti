@@ -34,10 +34,10 @@ Sou apaixonada por inovação e organização, acreditando no poder dos dados pa
 
 ## Projetos
 
-### ALTAVE – 2025-1
+### TIMESYNC – 2025-1
 
 *Descrição:*  
-Empresa especializada em monitoramento inteligente com hardware e software próprios, utilizando inteligência artificial para fornecer informações em tempo real.
+Desafio proposto pela empresa Altave especializada em monitoramento inteligente com hardware e software próprios, utilizando inteligência artificial para fornecer informações em tempo real.
 
 *Benefícios Entregues:*  
 - Automação de processos manuais, reduzindo erros e tempo de administração  
