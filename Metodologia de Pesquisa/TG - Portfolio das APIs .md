@@ -23,7 +23,7 @@ Sou apaixonada por inovação e organização, acreditando no poder dos dados pa
 
 ## Principais Conhecimentos
 
-- Desenvolvimento Full Stack: Java, Python, React, Angular, Node.js, TypeScript  
+- Desenvolvimento Full Stack: Java, Python, Angular, TypeScript  
 - Banco de Dados: SQL, NoSQL  
 - Machine Learning e Inteligência Artificial  
 - Desenvolvimento de Software e Automação  
@@ -67,31 +67,43 @@ Desafio proposto pela empresa Altave especializada em monitoramento inteligente 
 
 
 *Contribuições Pessoais:*  
-- Product Owner: definição de prioridades, organização do backlog e alinhamento com a empresa  
-- Condução de reuniões de planejamento e acompanhamento  
-- Desenvolvimento backend em Java com Spring Framework  
-- Criação de componentes e telas no frontend com Angular e TypeScript  
-- Modelagem do banco de dados MySQL e consultas otimizadas  
-- Integração entre API e frontend, garantindo retorno de dados em tempo real  
-- Participação em testes e ajustes de usabilidade
+- Product Owner: definição de prioridades, organização do backlog e alinhamento com a empresa
+  <details>
+- Condução de reuniões de planejamento e acompanhamento
+  <details>
+- Desenvolvimento frontend em typescript com angular Framework
+  <details> 
+- Criação de componentes e telas no frontend com Angular e TypeScript
+  <details>
+- Modelagem do banco de dados MySQL e consultas otimizadas
+  <details>
 
 *Hard Skills:*  
-- Java – Desenvolvimento de APIs e regras de negócio  
-- Angular – Criação de componentes e integração com backend  
-- TypeScript – Estruturação e tipagem de código no frontend  
-- MySQL – Consultas complexas e modelagem de banco de dados  
-- Spring Framework – Organização e segurança no backend  
-- Git/GitHub – Controle de versão e colaboração
+- Java – Desenvolvimento de APIs e regras de negócio
+  <details> 
+- Angular – Criação de componentes e integração com backend
+  <details>  
+- TypeScript – Estruturação e tipagem de código no frontend
+  <details> 
+- MySQL – Consultas complexas e modelagem de banco de dados
+  <details> 
+- Spring Framework – Organização e segurança no backend
+  <details> 
 
 *Soft Skills:*  
-- Comunicação – Tradução de requisitos entre equipe e empresa  
-- Liderança – Coordenação de equipe como PO  
+- Comunicação – Tradução de requisitos entre equipe e empresa
+  <details>
+- Liderança – Coordenação de equipe como PO
+  <details>
 - Organização – Gerenciamento de backlog e prioridades  
-- Trabalho em equipe – Colaboração com perfis técnicos variados  
+  <details>
+- Trabalho em equipe – Colaboração com perfis técnicos variados 
+  <details>
 - Resolução de problemas – Tomada de decisão rápida e eficiente
+  <details>
 
 [Git do Projeto](https://github.com/Vortek-API/Parent)
 
 ---
 
-<!-- Repita o bloco acima para cada projeto 2022-1, 2022-2, etc. -->
+<!-- Repitir o bloco acima para cada projeto 2024-2, 2024-1, etc. -->
