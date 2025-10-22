@@ -66,11 +66,11 @@ Desafio proposto pela empresa Altave especializada em monitoramento inteligente 
 </p>
 
 
-# 💡 Contribuições Pessoais
+# Contribuições Pessoais
 
 ---
 
-## 🚀 Tela de colaboradores e Tela de espelho de ponto
+## Tela de colaboradores e Tela de espelho de ponto
 <details>
 <summary>Ver mais</summary>
 
@@ -104,7 +104,7 @@ Saber **estruturar componentes reutilizáveis**, **gerenciar estados com eficiê
 
 ---
 
-## 🧮 Modelagem inicial do banco
+## Modelagem inicial do banco
 <details>
 
   <img width="1046" height="582" alt="image" src="https://github.com/user-attachments/assets/4c17c311-24e8-48f1-b37f-762f835620d2" />
@@ -130,7 +130,7 @@ O domínio de **modelagem de dados**, **otimização de queries** e **normaliza�
 
 ---
 
-## ☕ Java e Spring Framework no Backend (Tela de espelho de ponto)
+## Java e Spring Framework no Backend (Tela de espelho de ponto)
 <details>
 <summary>Ver mais</summary>
 
@@ -156,7 +156,7 @@ O conhecimento em **Spring Boot**, **JPA/Hibernate** e **RESTful Design** permit
 
 ---
 
-## 🎯 Product Owner: Definição de Prioridades, Organização do Backlog e Alinhamento com a Empresa
+## Product Owner: Definição de Prioridades, Organização do Backlog e Alinhamento com a Empresa
 <details>
 <summary>Ver mais</summary>
   
@@ -186,7 +186,7 @@ Essa experiência ampliou minhas habilidades de **planejamento, priorização e 
 
 ---
 
-## 💻 Definiçaõ de todo o prototipo da aplicação
+## Definição de todo o prototipo da aplicação
 <details>
 <summary>Ver mais</summary>
   
@@ -213,78 +213,91 @@ Essa experiência foi determinante para consolidar minha capacidade de **desenvo
 ---
 
 
+<h2 style="text-align: center;"></h2>
 
-*Hard Skills:*  
-- Java – Desenvolvimento de APIs e regras de negócio
-  <details>
-  No backend, utilizei Java para criar APIs RESTful que deram suporte às funcionalidades do sistema. Entre as atividades realizadas:  
-  - Desenvolvimento de endpoint para retorno detalhado de pontos (VTK-67).  
-  - Ajustes para criação de empresas e colaboradores (VTK-28 e VTK-30), garantindo validação de CPF/CNPJ, nomes e associação correta de profissionais às empresas.  
-  - Implementação de filtros por data, empresa e profissional, permitindo consultas específicas para o dashboard e relatórios (Sprints 2 e 3).  
-  - Integração com Spring Framework para organização do backend, segurança, autenticação e tratamento de erros.
-  </details>
+## Hard & Soft Skills
 
-- Angular – Criação de componentes e integração com backend
-  <details>
-  No frontend, utilizei Angular para desenvolver interfaces de usuário dinâmicas e integradas ao backend:  
-  - Implementação de telas de cadastro de empresas e profissionais, incluindo validação de campos obrigatórios, botão de cancelamento e mensagens de sucesso/erro (Sprint 1).  
-  - Upload de fotos com pré-visualização antes do envio, garantindo melhor experiência para o usuário.  
-  - Criação de listas filtráveis e ordenáveis de empresas e profissionais, integrando com endpoints Java para exibir dados atualizados em tempo real (Sprints 1 e 2).  
-  - Desenvolvimento de dashboard interativo com filtros aplicáveis diretamente na tela, gráficos e relatórios exportáveis (Sprint 2).
-  </details>
+<table align="center">
+  <tr>
+    <th>Tipo</th>
+    <th>Skill</th>
+    <th>Descrição/Atividades</th>
+  </tr>
 
-- TypeScript – Estruturação e tipagem de código no frontend
-  <details>
-  Usei TypeScript para estruturar o frontend e garantir tipagem segura:  
-  - Criação de interfaces para dados de profissionais e empresas, garantindo consistência entre frontend e backend.  
-  - Implementação de serviços reutilizáveis para chamadas HTTP, filtros, manipulação de datas e integração com gráficos do dashboard (Sprints 2 e 3).  
-  - Tipagem de componentes Angular, prevenindo erros de compilação e aumentando a manutenção e legibilidade do código.
-  </details>
+  <!-- Hard Skills -->
+  <tr>
+    <td>Hard</td>
+    <td><img src="https://skillicons.dev/icons?i=java&color=green" width="50" /></td>
+    <td>
+      <details><summary>Ver detalhes</summary>No backend, utilizei Java para criar APIs RESTful que deram suporte às funcionalidades do sistema. Atividades: desenvolvimento de endpoints detalhados (VTK-67), ajustes para empresas e colaboradores (VTK-28/30), filtros por data/empresa/profissional, integração com Spring Framework.</details>
+    </td>
+  </tr>
+  <tr>
+    <td>Hard</td>
+    <td><img src="https://skillicons.dev/icons?i=angular&color=green" width="50" /></td>
+    <td>
+      <details><summary>Ver detalhes</summary>No frontend, utilizei Angular para desenvolver interfaces dinâmicas: telas de cadastro, upload de fotos com preview, listas filtráveis e ordenáveis, dashboard interativo com gráficos e relatórios exportáveis.</details>
+    </td>
+  </tr>
+  <tr>
+    <td>Hard</td>
+    <td><img src="https://skillicons.dev/icons?i=typescript&color=green" width="50" /></td>
+    <td>
+      <details><summary>Ver detalhes</summary>Usei TypeScript para estruturar o frontend e garantir tipagem segura: criação de interfaces, serviços reutilizáveis para HTTP/filtros/datas, tipagem de componentes Angular para prevenir erros e aumentar manutenção.</details>
+    </td>
+  </tr>
+  <tr>
+    <td>Hard</td>
+    <td><img src="https://skillicons.dev/icons?i=mysql&color=green" width="50" /></td>
+    <td>
+      <details><summary>Ver detalhes</summary>Modelagem de tabelas (empresas, profissionais, registros de ponto), consultas filtradas, totalização de horas, otimização de queries, preparação de dados para APIs e exportação em PDF/Excel.</details>
+    </td>
+  </tr>
+  <tr>
+    <td>Hard</td>
+    <td><img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Spring-Dark.svg" width="50" /></td>
+    <td>
+      <details><summary>Ver detalhes</summary>Estruturação do backend em camadas (serviço, repositório, controlador), autenticação e autorização, validação de dados, tratamento de exceções, integração com Angular/TypeScript.</details>
+    </td>
+  </tr>
 
-- MySQL – Consultas complexas e modelagem de banco de dados
-  <details>
-  No banco de dados MySQL, desenvolvi consultas e modelagem para suportar funcionalidades do sistema:  
-  - Modelagem das tabelas de empresas, profissionais e registros de ponto, mantendo integridade referencial.  
-  - Consultas filtradas por nome, empresa ou período, totalizando horas trabalhadas e gerando relatórios detalhados (Sprints 2 e 3).  
-  - Otimização de queries para exibição de listas e dashboards com grande volume de dados.  
-  - Preparação de dados para integração com APIs REST e exportação em PDF/Excel.
-  </details>
-
-- Spring Framework – Organização e segurança no backend
-  <details>
-  Utilizei Spring Framework para estruturar o backend e manter segurança e organização do sistema:  
-  - Criação de camadas de serviço, repositório e controlador, garantindo código modular e fácil manutenção.  
-  - Implementação de autenticação, autorização e redirecionamento por perfil de usuário (Sprint 3).  
-  - Validação de dados, tratamento de exceções e controle de respostas das APIs (VTK-28, VTK-30, VTK-67).  
-  - Suporte à integração com frontend Angular e tipagem TypeScript, garantindo consistência e segurança no fluxo de dados.
-  </details>
-
-
-*Soft Skills:*  
-- Comunicação – Tradução de requisitos entre equipe e cliente
-  <details>
-  Atuei como principal ponto de contato entre o cliente do projeto acadêmico e a equipe de desenvolvimento, garantindo que todas as necessidades fossem claramente compreendidas, documentadas e priorizadas. Participei de reuniões regulares com o P2 para levantamento de requisitos, esclarecimento de dúvidas e alinhamento de expectativas, traduzindo informações técnicas e não técnicas de forma acessível para todos. Auxiliei na criação de user stories e tarefas detalhadas, garantindo que cada membro da equipe entendesse suas responsabilidades e entregasse resultados alinhados ao que o cliente solicitava. Essa atuação ajudou a minimizar retrabalho e aumentar a eficiência da equipe.
-  </details>
-
-- Liderança – Coordenação de equipe como PO
-  <details>
-  Exerci a função de Product Owner no projeto, coordenando uma equipe multidisciplinar composta por desenvolvedores e designers. Defini metas claras para cada sprint, organizei reuniões de planejamento e acompanhamento, e assegurei que todos os membros estivessem alinhados com os objetivos acadêmicos e práticos do projeto. Além disso, incentivei a participação ativa de todos, promovendo alinhamento, motivação e engajamento, e assegurando que os prazos fossem cumpridos sem comprometer a qualidade. Também conduzi sessões de feedback e retrospectiva, fortalecendo a colaboração e o aprendizado coletivo da equipe.
-  </details>
-
-- Organização – Gerenciamento de backlog e prioridades
-  <details>
-  Fui responsável por manter o backlog do projeto atualizado e organizado, priorizando tarefas com base na urgência, complexidade e valor entregue ao cliente e à disciplina. Planejei sprints acadêmicos, distribuí atividades de acordo com as habilidades de cada integrante e acompanhei a evolução das entregas por meio de ferramentas de gestão de projetos. Mantive registros detalhados do progresso, metas atingidas e pendências, garantindo transparência e facilitando a tomada de decisão durante as reuniões com o P2 e entre membros da equipe.
-  </details>
-
-- Trabalho em equipe – Colaboração com perfis técnicos variados
-  <details>
-  Trabalhei de forma colaborativa com colegas de diferentes especialidades, incluindo programação, design e análise de requisitos. Incentivei a troca de conhecimento, apoio mútuo e revisão coletiva de tarefas, promovendo um ambiente de aprendizado e cooperação. Atuei como facilitador em momentos de conflito ou dúvida técnica, ajudando a equipe a encontrar soluções de forma consensual. Essa colaboração contribuiu para que as entregas fossem feitas de maneira integrada, eficiente e alinhada tanto às expectativas do cliente quanto às diretrizes da disciplina.
-  </details>
-
-- Resolução de problemas – Tomada de decisão rápida e eficiente
-  <details>
-  Durante o desenvolvimento do projeto, identifiquei rapidamente obstáculos técnicos, conflitos de prioridades e alterações nos requisitos do cliente. Avaliei alternativas e implementei soluções rápidas e eficazes, equilibrando viabilidade, impacto e qualidade. Tomei decisões estratégicas para replanejar tarefas, redistribuir atividades e ajustar prazos quando necessário, garantindo que a equipe mantivesse o fluxo de trabalho contínuo e que as entregas fossem concluídas dentro do cronograma estabelecido. Essa atuação fortaleceu a capacidade de adaptação da equipe e aumentou a confiança do cliente no projeto.
-  </details>
+  <!-- Soft Skills -->
+  <tr>
+    <td>Soft</td>
+    <td>Comunicação</td>
+    <td>
+      <details><summary>Ver detalhes</summary>Atuei como ponto de contato entre cliente e equipe, traduzindo requisitos, participando de reuniões, criando user stories e tarefas detalhadas, minimizando retrabalho e garantindo alinhamento.</details>
+    </td>
+  </tr>
+  <tr>
+    <td>Soft</td>
+    <td>Liderança</td>
+    <td>
+      <details><summary>Ver detalhes</summary>Atuei como Product Owner, coordenando equipe multidisciplinar, definindo metas, planejando sprints, promovendo engajamento e feedback, garantindo entregas de qualidade.</details>
+    </td>
+  </tr>
+  <tr>
+    <td>Soft</td>
+    <td>Organização</td>
+    <td>
+      <details><summary>Ver detalhes</summary>Gerenciamento de backlog, priorização de tarefas, planejamento de sprints, acompanhamento de entregas, manutenção de registros detalhados para decisões transparentes.</details>
+    </td>
+  </tr>
+  <tr>
+    <td>Soft</td>
+    <td>Trabalho em equipe</td>
+    <td>
+      <details><summary>Ver detalhes</summary>Colaboração com perfis técnicos variados, incentivo à troca de conhecimento, revisão coletiva, mediação de conflitos e integração eficiente das entregas.</details>
+    </td>
+  </tr>
+  <tr>
+    <td>Soft</td>
+    <td>Resolução de problemas</td>
+    <td>
+      <details><summary>Ver detalhes</summary>Identificação rápida de obstáculos, avaliação de alternativas, implementação de soluções eficientes, replanejamento de tarefas e manutenção do fluxo de trabalho.</details>
+    </td>
+  </tr>
+</table>
 
 
 
