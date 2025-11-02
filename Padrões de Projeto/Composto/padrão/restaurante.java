@@ -1,54 +1,85 @@
 package padrão;
+import java.util.ArrayList;
+import java.util.List;
 
-class ItemCardapio(ABC):
-    @abstractmethod
-    def mostrar(self):
-        pass
+// Interface for menu items
+interface ItemCardapio {
+    void mostrar();
+}
 
-class Prato(ItemCardapio):
-    def __init__(self, nome, preco):
-        self.nome = nome
-        self.preco = preco
+// Concrete class for dishes
+class Prato implements ItemCardapio {
+    private String nome;
+    private double preco;
 
-    def mostrar(self):
-        print(f"Prato: {self.nome} - R$ {self.preco:.2f}")
+    public Prato(String nome, double preco) {
+        this.nome = nome;
+        this.preco = preco;
+    }
 
-class Menu(ItemCardapio):
-    def __init__(self, nome):
-        self.nome = nome
-        self.itens = []
+    @Override
+    public void mostrar() {
+        System.out.printf("Prato: %s - R$ %.2f%n", nome, preco);
+    }
+}
 
-    def adicionar(self, item: ItemCardapio):
-        self.itens.append(item)
+// Composite class for menus
+class Menu implements ItemCardapio {
+    private String nome;
+    private List<ItemCardapio> itens = new ArrayList<>();
 
-    def mostrar(self):
-        print(f"\n--- {self.nome} ---")
-        for item in self.itens:
-            item.mostrar()
+    public Menu(String nome) {
+        this.nome = nome;
+    }
 
-class Restaurante:
-    def __init__(self, nome):
-        self.nome = nome
-        self.menu_principal = Menu("Cardápio Principal")
+    public void adicionar(ItemCardapio item) {
+        itens.add(item);
+    }
 
-    def adicionar_item(self, item: ItemCardapio):
-        self.menu_principal.adicionar(item)
+    @Override
+    public void mostrar() {
+        System.out.println("\n--- " + nome + " ---");
+        for (ItemCardapio item : itens) {
+            item.mostrar();
+        }
+    }
+}
 
-    def mostrar_cardapio(self):
-        print(f"\n🍴 Restaurante: {self.nome}")
-        self.menu_principal.mostrar()
+// Restaurant class
+class Restaurante {
+    private String nome;
+    private Menu menuPrincipal = new Menu("Cardápio Principal");
 
-restaurante = Restaurante("La Trattoria")
+    public Restaurante(String nome) {
+        this.nome = nome;
+    }
 
-menu_massas = Menu("Massas")
-menu_massas.adicionar(Prato("Lasanha", 35))
-menu_massas.adicionar(Prato("Pizza", 40))
+    public void adicionarItem(ItemCardapio item) {
+        menuPrincipal.adicionar(item);
+    }
 
-menu_bebidas = Menu("Bebidas")
-menu_bebidas.adicionar(Prato("Suco de Laranja", 10))
-menu_bebidas.adicionar(Prato("Água", 5))
+    public void mostrarCardapio() {
+        System.out.println("\n🍴 Restaurante: " + nome);
+        menuPrincipal.mostrar();
+    }
+}
 
-restaurante.adicionar_item(menu_massas)
-restaurante.adicionar_item(menu_bebidas)
+// Main method to run the program
+public class restaurante {
+    public static void main(String[] args) {
+        Restaurante restaurante = new Restaurante("La Trattoria");
 
-restaurante.mostrar_cardapio()
+        Menu menuMassas = new Menu("Massas");
+        menuMassas.adicionar(new Prato("Lasanha", 35));
+        menuMassas.adicionar(new Prato("Pizza", 40));
+
+        Menu menuBebidas = new Menu("Bebidas");
+        menuBebidas.adicionar(new Prato("Suco de Laranja", 10));
+        menuBebidas.adicionar(new Prato("Água", 5));
+
+        restaurante.adicionarItem(menuMassas);
+        restaurante.adicionarItem(menuBebidas);
+
+        restaurante.mostrarCardapio();
+    }
+}

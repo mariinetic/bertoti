@@ -1,26 +1,79 @@
 package antipadrão;
 
-class PratoComposto(Menu):
-    def __init__(self, nome, preco):
-        super().__init__(nome)
-        self.preco = preco
+import java.util.ArrayList;
+import java.util.List;
 
-    def mostrar(self):
-        print(f"Prato composto: {self.nome} - R$ {self.preco:.2f}")
-        for item in self.itens:
-            item.mostrar()
+class Menu {
+    protected String nome;
+    protected List<Menu> itens = new ArrayList<>();
 
-class Restaurante:
-    def __init__(self, nome):
-        self.nome = nome
+    public Menu(String nome) {
+        this.nome = nome;
+    }
 
-    def mostrar_exemplo_antipadrao(self):
-        print(f"\n🍴 Restaurante: {self.nome} (Exemplo Anti-Padrão)")
+    public void adicionar(Menu item) {
+        itens.add(item);
+    }
 
-        pizza = PratoComposto("Pizza Gigante", 60)
-        pizza.adicionar(Prato("Mini Pizza", 15))  
+    public void mostrar() {
+        System.out.println("Menu: " + nome);
+        for (Menu item : itens) {
+            item.mostrar();
+        }
+    }
+}
 
-        pizza.mostrar()
+class Prato extends Menu {
+    private double preco;
 
-restaurante = Restaurante("FastFood X")
-restaurante.mostrar_exemplo_antipadrao()
+    public Prato(String nome, double preco) {
+        super(nome);
+        this.preco = preco;
+    }
+
+    @Override
+    public void mostrar() {
+        System.out.printf("Prato: %s - R$ %.2f%n", nome, preco);
+    }
+}
+
+class PratoComposto extends Menu {
+    private double preco;
+
+    public PratoComposto(String nome, double preco) {
+        super(nome);
+        this.preco = preco;
+    }
+
+    @Override
+    public void mostrar() {
+        System.out.printf("Prato composto: %s - R$ %.2f%n", nome, preco);
+        for (Menu item : itens) {
+            item.mostrar();
+        }
+    }
+}
+
+class Restaurante {
+    private String nome;
+
+    public Restaurante(String nome) {
+        this.nome = nome;
+    }
+
+    public void mostrarExemploAntipadrao() {
+        System.out.println("\n🍴 Restaurante: " + nome + " (Exemplo Anti-Padrão)");
+
+        PratoComposto pizza = new PratoComposto("Pizza Gigante", 60);
+        pizza.adicionar(new Prato("Mini Pizza", 15));
+
+        pizza.mostrar();
+    }
+}
+
+public class restaurante {
+    public static void main(String[] args) {
+        Restaurante restaurante = new Restaurante("FastFood X");
+        restaurante.mostrarExemploAntipadrao();
+    }
+}

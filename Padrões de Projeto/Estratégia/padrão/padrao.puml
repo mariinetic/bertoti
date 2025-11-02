@@ -1,0 +1,53 @@
+@startuml
+title ✅ Padrão Factory Method (Criação de Objetos) - Limpo
+
+' Configuração de estilo
+skinparam class {
+  BorderColor #006600
+  BackgroundColor white
+  AttributeFontColor black
+}
+skinparam interface {
+  BorderColor #6cc644
+  BackgroundColor white
+  AttributeFontColor black
+}
+skinparam backgroundcolor white
+
+' 1. Produto (Interface)
+interface Doce {
+  -- Métodos --
+  + preparar(): void
+}
+
+' 2. Produto Concreto
+class Bolo {
+  -- Métodos --
+  + preparar(): void
+}
+
+' 3. Criador (Creator)
+class Confeitaria {
+  -- Métodos --
+  + criarDoce(): Doce
+}
+
+' 4. Cliente (Client)
+class Main {
+    -- Métodos --
+    + main(args: String[]): void
+}
+
+' RELAÇÕES:
+
+' Implementação (Produto Concreto implementa o Produto) - Triângulo vazio
+Bolo ..|> Doce
+
+' Dependência (Confeitaria cria e retorna o Produto) - Linha tracejada com seta aberta
+Confeitaria .up.> Doce
+
+' Dependência (Cliente usa o Criador e o Produto) - Linha tracejada com seta aberta
+Main .right.> Confeitaria
+Main .left.> Doce
+
+@enduml
