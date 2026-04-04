@@ -394,7 +394,7 @@ O "Sistema de Ponto" é uma aplicação web do 3º semestre projetada para geren
 <p align="center">
   <img width="661" height="283" alt="image" src="https://github.com/user-attachments/assets/3d60faf7-0a9a-405f-be83-2be786cd0fa5" />
   <br/><br/>
-   <a href="[https://github.com/DenariusData/API-2SEM](https://github.com/Vortek-API/API3Sem)">
+   <a href="https://github.com/Vortek-API/Cimob-parent?tab=readme-ov-file">
     <img src="https://img.shields.io/badge/Repositório-GitHub-FF69B4?logo=github&logoColor=white" alt="Repositório" />
   </a>
 </p>
@@ -502,9 +502,7 @@ O conhecimento em **Spring Boot**, **JPA/Hibernate** e **RESTful Design** permit
 
 <details>
 <summary>Product Owner: Definição de Prioridades, Organização do Backlog e Alinhamento com a Empresa</summary>
-
-![1751367289922](https://github.com/user-attachments/assets/d648d5cd-4e7a-4c87-a94a-9b75ab6de09a)
-
+  
 Assumi a função de **Product Owner (PO)**, atuando na **gestão do backlog**, **definição de prioridades** e **mediação entre o time técnico e as partes interessadas**.  
 Trabalhei na **elaboração de user stories detalhadas**, com **critérios de aceitação claros** e **descrições técnicas completas**, permitindo que a equipe de desenvolvimento tivesse clareza total sobre o escopo de cada tarefa e com isso a construção da documentação de toda a nossa aplicação.  
 
@@ -609,7 +607,7 @@ Aplicação desktop desenvolvida no 4º semestre com Java, uma solução inovado
 <p align="center">
 <img width="756" height="315" alt="image" src="https://github.com/user-attachments/assets/5613a0d4-77f8-4d9b-b74c-03ebde2b8a55" />
   <br/><br/>
-  <a href="[https://github.com/DenariusData/API-2SEM](https://github.com/Vortek-API/Cimob-parent)">
+  <a href="https://github.com/Vortek-API/Cimob-parent">
     <img src="https://img.shields.io/badge/Repositório-GitHub-FF69B4?logo=github&logoColor=white" alt="Repositório" />
   </a>
 </p>
