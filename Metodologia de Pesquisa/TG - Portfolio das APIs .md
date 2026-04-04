@@ -24,7 +24,7 @@ Graduanda em *Banco de Dados* (formatura prevista para 2026) e atualmente estagi
 
 
 ---
-# Calculadora Científica
+# Calculadora Científica (1º semestre)
 
 ![Semestre](https://img.shields.io/badge/semestre-1%C2%BA%20%C2%B7%202024-lightgrey?logo=googledocs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
@@ -182,7 +182,7 @@ Um ponto importante da implementação foi a decisão de não utilizar funções
 </details>
 
 ---
-# Pacer
+# Pacer (2º semestre)
 ![Semestre](https://img.shields.io/badge/semestre-2%C2%BA%20%C2%B7%202024-lightgrey?logo=googledocs&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
 ![JavaFX](https://img.shields.io/badge/JavaFX-007396?logo=openjdk&logoColor=white)
@@ -204,7 +204,7 @@ Aplicação desktop desenvolvida no 2º semestre com Java, uma solução inovado
   
   ![Brown Minimalist Welcome Message X_Twitter Header](https://github.com/user-attachments/assets/f3d75862-9269-4cc3-8754-7818520bc0f6)
 
-  O projeto foi desenvolvido no segundo semestre de 2025 no contexto da Aprendizagem por Projetos Integrados (API), com o objetivo de automatizar e padronizar o processo de avaliação de competências no PACER, substituindo o modelo manual sujeito a erros e inconsistências.
+  O projeto foi desenvolvido no segundo semestre de 2024 no contexto da Aprendizagem por Projetos Integrados (API), com o objetivo de automatizar e padronizar o processo de avaliação de competências no PACER, substituindo o modelo manual sujeito a erros e inconsistências.
 
 A solução consistiu em um sistema web que permite a avaliação entre membros de equipes ao final de cada Sprint, com armazenamento seguro dos dados e geração de relatórios detalhados para professores, incluindo médias por aluno e por grupo.
 
@@ -382,7 +382,7 @@ Os relacionamentos foram definidos para refletir o funcionamento real do sistema
 </details>
 
 ---
-# Timesync
+# Timesync (3º semestre)
 ![Semestre](https://img.shields.io/badge/semestre-3%C2%BA%20%C2%B7%202025-lightgrey?logo=googledocs&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=white)
@@ -597,14 +597,14 @@ Essa experiência foi determinante para consolidar minha capacidade de **desenvo
 </details>
 
 ---
-# CIMOB
+# CIMOB (4º semestre)
 ![Semestre](https://img.shields.io/badge/semestre-2%C2%BA%20%C2%B7%202025-lightgrey?logo=googledocs&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
 ![JavaFX](https://img.shields.io/badge/JavaFX-007396?logo=openjdk&logoColor=white)
 ![SceneBuilder](https://img.shields.io/badge/Scene%20Builder-ED8B00?logo=openjdk&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
 
-Aplicação desktop desenvolvida no 2º semestre com Java, uma solução inovadora para aprimorar o processo de avaliação de competências no PACER, dentro da metodologia de Aprendizagem por Projetos Integrados.
+Aplicação desktop desenvolvida no 4º semestre com Java, uma solução inovadora para aprimorar o processo de avaliação de competências no PACER, dentro da metodologia de Aprendizagem por Projetos Integrados.
 
 <p align="center">
 <img width="756" height="315" alt="image" src="https://github.com/user-attachments/assets/5613a0d4-77f8-4d9b-b74c-03ebde2b8a55" />
