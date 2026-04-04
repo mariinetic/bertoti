@@ -1,38 +1,100 @@
-# Mariana Oliveira
+<img width="1500" height="500" alt="Brown Minimalist Welcome Message XTwitter Header" src="https://github.com/user-attachments/assets/99a4e32f-dbe6-4404-b3cf-6a8be7a001ab" />
 
-## Introdução
+Graduanda em *Banco de Dados* (formatura prevista para 2026) e atualmente estagiária em *Desenvolvimento Fullstack e Inteligência Artificial na Ericsson*. Sou apaixonada por inovação e organização, acreditando no poder dos dados para transformar negócios e gerar valor. Busco constante aprendizado para evoluir como profissional em dados e machine learning.
 
-<img src="https://github.com/user-attachments/assets/2babf0be-c072-47b9-81ca-d78559b00a8a" alt="ilustração de um computador" min-width="400px" max-width="300px" width="300px" align="right">
+<p align="center">
+  <strong>Meus contatos!</strong>
+</p>
 
-Sou Mariana Oliveira, graduanda em *Banco de Dados* (formatura prevista para 2026) e atualmente estagiária em *Desenvolvimento Fullstack e Inteligência Artificial na Ericsson*.  
+<p align="center">
+  <a href="mailto:marianaoliveiry18@gmail.com" title="Gmail">
+    <img src="https://img.shields.io/badge/-Gmail-FF69B4?style=flat-square&labelColor=FF69B4&logo=gmail&logoColor=white" alt="Gmail"/>
+  </a>
 
-Atuo com tecnologias como Python, Docker, Java, Angular e TypeScript, explorando conceitos de *machine learning*  
+  <a href="https://www.linkedin.com/in/oliveirasmari/" title="LinkedIn">
+    <img src="https://img.shields.io/badge/-LinkedIn-FF69B4?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
 
-Meu interesse por tecnologia começou no ensino médio, quando junto com meu grupo de TCC construímos uma impressora 3D, despertando minha paixão por inovação. Fui vencedora do *Hackathon Early Career da Ericsson*, reforçando meu entusiasmo por projetos colaborativos.  
+  <a href="mailto:mariana.oliveira59@fatec.sp.gov.br" title="Outlook">
+    <img src="https://img.shields.io/badge/-Outlook-FF69B4?style=flat-square&labelColor=FF69B4&logo=microsoft-outlook&logoColor=white" alt="Outlook"/>
+  </a>
+</p>
 
-Sou apaixonada por inovação e organização, acreditando no poder dos dados para transformar negócios e gerar valor. Busco constante aprendizado para evoluir como profissional em dados e machine learning, sempre contribuindo para o sucesso das organizações.
+![Brown Minimalist Welcome Message XTwitter Header](https://github.com/user-attachments/assets/9c0a0a66-002d-47d0-961e-45f3389eb51c)
 
----
-
-## Contatos
-
-- [GitHub](https://github.com/mariinetic)  
-- [LinkedIn](https://www.linkedin.com/in/oliveirasmari/)
-
----
-
-## Principais Conhecimentos
-
-- Desenvolvimento Full Stack: Java, Python, Angular, TypeScript  
-- Banco de Dados: SQL, NoSQL  
-- Machine Learning e Inteligência Artificial  
-- Desenvolvimento de Software e Automação  
-- Versionamento: Git  
-- Metodologias Ágeis: Scrum, Kanban  
 
 ---
+# Calculadora Científica
 
-## Projetos
+![Semestre](https://img.shields.io/badge/semestre-1%C2%BA%20%C2%B7%202024-lightgrey?logo=googledocs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Terminal](https://img.shields.io/badge/Terminal%20App-222222?logo=gnubash&logoColor=white)
+
+
+Aplicação de terminal com operações matemáticas, conversões numéricas e validação de entrada — desenvolvida ao longo do 1º semestre, evoluindo de VisualG até TypeScript.
+
+<p align="center">
+  <img width="306" height="176" alt="image" src="https://github.com/user-attachments/assets/8bee0ab4-8466-4994-9e29-1d895e00edcd" />
+  <br/><br/>
+  <a href="https://github.com/DenariusData/API-1sem">
+    <img src="https://img.shields.io/badge/Repositório-GitHub-FF69B4?logo=github&logoColor=white" alt="Repositório" />
+  </a>
+</p>
+
+<details>
+  <summary>Detalhes do projeto</summary>
+
+  Conteúdo que fica escondido aqui.
+  Pode ser texto, listas, imagens, código...
+
+</details>
+
+---
+# Pacer
+![Semestre](https://img.shields.io/badge/semestre-2%C2%BA%20%C2%B7%202024-lightgrey?logo=googledocs&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
+![JavaFX](https://img.shields.io/badge/JavaFX-007396?logo=openjdk&logoColor=white)
+![SceneBuilder](https://img.shields.io/badge/Scene%20Builder-ED8B00?logo=openjdk&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
+
+Aplicação desktop desenvolvida no 2º semestre com Java, uma solução inovadora para aprimorar o processo de avaliação de competências no PACER, dentro da metodologia de Aprendizagem por Projetos Integrados.
+
+<p align="center">
+  <img width="587" height="273" alt="image" src="https://github.com/user-attachments/assets/7299d01e-203e-49e0-a862-4f1b3dbfb99c" />
+  <br/><br/>
+  <a href="https://github.com/DenariusData/API-2SEM">
+    <img src="https://img.shields.io/badge/Repositório-GitHub-FF69B4?logo=github&logoColor=white" alt="Repositório" />
+  </a>
+</p>
+
+<details>
+  <summary>Detalhes do projeto</summary>
+
+  Conteúdo que fica escondido aqui.
+
+</details>
+
+---
+# Timesync
+![Semestre](https://img.shields.io/badge/semestre-3%C2%BA%20%C2%B7%202025-lightgrey?logo=googledocs&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+
+O "Sistema de Ponto" é uma aplicação web do 3º semestre projetada para gerenciar o controle de ponto de funcionários em empresas terceirizadas, especialmente em áreas de manutenção. A plataforma oferece uma solução eficiente para o registro e acompanhamento das horas trabalhadas, otimizando a administração de equipes e assegurando maior precisão nos dados.
+
+<p align="center">
+  <img width="661" height="283" alt="image" src="https://github.com/user-attachments/assets/3d60faf7-0a9a-405f-be83-2be786cd0fa5" />
+  <br/><br/>
+   <a href="[https://github.com/DenariusData/API-2SEM](https://github.com/Vortek-API/API3Sem)">
+    <img src="https://img.shields.io/badge/Repositório-GitHub-FF69B4?logo=github&logoColor=white" alt="Repositório" />
+  </a>
+</p>
+
+
+<details>
+<summary>TIMESYNC – 2025-1</summary>
 
 ### TIMESYNC – 2025-1
 
@@ -65,6 +127,7 @@ Desafio proposto pela empresa Altave especializada em monitoramento inteligente 
   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Spring-Dark.svg" width="50" />
 </p>
 
+---
 
 # Contribuições Pessoais
 
@@ -83,19 +146,15 @@ Implementei **telas de cadastro com validações reativas**, **listagens com fil
 
 <img width="944" height="438" alt="image" src="https://github.com/user-attachments/assets/b51e9fb3-5f38-40cd-b71d-d9c4357e1a94" />
 
-
 Durante o desenvolvimento, adotei princípios de **componentização e separação de responsabilidades**, garantindo que cada módulo fosse independente, testável e fácil de evoluir.  
 Utilizei **Angular Services** para integração com APIs RESTful, aplicando interceptors para tratamento centralizado de erros e autenticação JWT.  
 Apliquei também **Reactive Forms** para manipulação de dados do usuário e **RxJS Observables** para controle de fluxos assíncronos, permitindo respostas rápidas e atualizações em tempo real.  
 
 <img width="988" height="655" alt="image" src="https://github.com/user-attachments/assets/202fb2de-7b01-4193-b8bc-b441f343ca77" />
 
-
 Essa experiência reforçou a importância da **arquitetura limpa** e da **organização por módulos** em aplicações de larga escala. Além de entregar uma interface funcional, priorizei **acessibilidade**, **feedback visual** e **coerência nas interações**, garantindo uma jornada fluida ao usuário final. 
 
 <img width="946" height="459" alt="image" src="https://github.com/user-attachments/assets/2fc82812-1d6e-42ed-98ce-59927922191d" />
-
-
 
 Na **Ericsson**, essa vivência é diretamente aplicável, pois o trabalho envolve **aplicações corporativas complexas**, com alto volume de dados e integração com múltiplos sistemas.  
 Saber **estruturar componentes reutilizáveis**, **gerenciar estados com eficiência** e **integrar APIs REST de forma segura e escalável** permite entregar **soluções performáticas e confiáveis**, reduzindo o tempo de desenvolvimento e aumentando a qualidade das entregas.  
@@ -106,10 +165,9 @@ Saber **estruturar componentes reutilizáveis**, **gerenciar estados com eficiê
 
 ## Modelagem inicial do banco
 <details>
-
-  <img width="1046" height="582" alt="image" src="https://github.com/user-attachments/assets/4c17c311-24e8-48f1-b37f-762f835620d2" />
-
 <summary>Ver mais</summary>
+
+<img width="1046" height="582" alt="image" src="https://github.com/user-attachments/assets/4c17c311-24e8-48f1-b37f-762f835620d2" />
 
 Durante o projeto acadêmico, fui responsável pela **arquitetura e modelagem do banco de dados relacional**, utilizando **MySQL** como base principal.  
 Criei um modelo de dados sólido e normalizado, com tabelas para **empresas, profissionais, registros de ponto e controle de horas**, garantindo **integridade referencial**, **consistência dos dados** e **relacionamentos bem estruturados (1:N, N:N)**.  
@@ -136,7 +194,6 @@ O domínio de **modelagem de dados**, **otimização de queries** e **normaliza�
 
 <img width="1856" height="938" alt="image" src="https://github.com/user-attachments/assets/3e72d381-3f85-429e-a199-c5cd945021a1" />
 
-
 No backend, utilizei **Java** e o **Spring Framework** para desenvolver **APIs RESTful escaláveis, seguras e de fácil manutenção**.  
 A arquitetura foi desenhada seguindo princípios de **injeção de dependência**, **camadas bem definidas (Controller, Service, Repository)** e **boas práticas de versionamento e modularização**.  
 
@@ -144,7 +201,6 @@ Implementei endpoints para **cadastro, autenticação e consulta de dados**, apl
 Também integrei **Spring Security** com **JWT tokens**, implementando autenticação e autorização por perfis de usuário, protegendo rotas sensíveis e garantindo o acesso adequado a cada funcionalidade.  
 
 <img width="1845" height="955" alt="image" src="https://github.com/user-attachments/assets/b78452f0-001e-436c-b610-4a175690bc32" />
-
 
 Além disso, trabalhei em **filtros dinâmicos de busca**, permitindo consultas parametrizadas via query string, o que aumentou a flexibilidade da API e reduziu a necessidade de múltiplos endpoints.  
 A integração entre backend e frontend foi feita por meio de **CORS configurado**, **DTOs bem definidos** e **tratamento de erros padronizado**, garantindo uma comunicação estável e segura.  
@@ -159,12 +215,11 @@ O conhecimento em **Spring Boot**, **JPA/Hibernate** e **RESTful Design** permit
 ## Product Owner: Definição de Prioridades, Organização do Backlog e Alinhamento com a Empresa
 <details>
 <summary>Ver mais</summary>
-  
+
 ![1751367289922](https://github.com/user-attachments/assets/d648d5cd-4e7a-4c87-a94a-9b75ab6de09a)
 
 Assumi a função de **Product Owner (PO)**, atuando na **gestão do backlog**, **definição de prioridades** e **mediação entre o time técnico e as partes interessadas**.  
-Trabalhei na **elaboração de user stories detalhadas**, com **critérios de aceitação claros** e **descrições técnicas completas**, permitindo que a equipe de desenvolvimento tivesse clareza total sobre o escopo de cada tarefa e com isso a contrução da documentação de todo a nossa aplicação.  
-
+Trabalhei na **elaboração de user stories detalhadas**, com **critérios de aceitação claros** e **descrições técnicas completas**, permitindo que a equipe de desenvolvimento tivesse clareza total sobre o escopo de cada tarefa e com isso a construção da documentação de toda a nossa aplicação.  
 
 [Manual do usuário.pdf](https://github.com/user-attachments/files/23004449/Manual.do.usuario.pdf)
 
@@ -173,12 +228,10 @@ Trabalhei na **elaboração de user stories detalhadas**, com **critérios de ac
 Realizei **revisões constantes do backlog**, ajustando prioridades conforme feedbacks do cliente e métricas de valor.  
 Essa atuação me ensinou a equilibrar **viabilidade técnica**, **valor de negócio** e **disponibilidade de recursos**, otimizando o uso do tempo e reduzindo gargalos durante o ciclo do sprint.  
 
-
 Apliquei também práticas de **Scrum** e **Kanban**, utilizando ferramentas como **Jira e Trello** para visualização do fluxo de tarefas e acompanhamento de métricas de produtividade.  
 A comunicação constante com a equipe e os stakeholders permitiu garantir **alinhamento estratégico** e **entregas contínuas de valor**, transformando requisitos complexos em resultados concretos e mensuráveis.  
 
 <img width="1046" height="571" alt="image" src="https://github.com/user-attachments/assets/2188cda4-7ebf-44bd-837c-f210bff741a7" />
-
 
 Essa experiência ampliou minhas habilidades de **planejamento, priorização e comunicação estratégica**, competências diretamente aplicáveis em projetos corporativos de grande escala, como os conduzidos pela Ericsson.  
 
@@ -186,10 +239,10 @@ Essa experiência ampliou minhas habilidades de **planejamento, priorização e 
 
 ---
 
-## Definição de todo o prototipo da aplicação
+## Definição de todo o protótipo da aplicação
 <details>
 <summary>Ver mais</summary>
-  
+
 <img width="1187" height="861" alt="image" src="https://github.com/user-attachments/assets/af5d524f-9f03-41b0-b5cb-59a2019fc6c9" />
 
 No frontend, o uso de **TypeScript aliado ao Angular Framework** foi essencial para garantir **segurança de tipos**, **escalabilidade** e **robustez** do código.  
@@ -212,9 +265,6 @@ Essa experiência foi determinante para consolidar minha capacidade de **desenvo
 
 ---
 
-
-<h2 style="text-align: center;"></h2>
-
 ## Hard & Soft Skills
 
 <table align="center">
@@ -223,8 +273,6 @@ Essa experiência foi determinante para consolidar minha capacidade de **desenvo
     <th>Skill</th>
     <th>Descrição/Atividades</th>
   </tr>
-
-  <!-- Hard Skills -->
   <tr>
     <td>Hard</td>
     <td><img src="https://skillicons.dev/icons?i=java&color=green" width="50" /></td>
@@ -260,8 +308,6 @@ Essa experiência foi determinante para consolidar minha capacidade de **desenvo
       <details><summary>Ver detalhes</summary>Estruturação do backend em camadas (serviço, repositório, controlador), autenticação e autorização, validação de dados, tratamento de exceções, integração com Angular/TypeScript.</details>
     </td>
   </tr>
-
-  <!-- Soft Skills -->
   <tr>
     <td>Soft</td>
     <td>Comunicação</td>
@@ -299,10 +345,33 @@ Essa experiência foi determinante para consolidar minha capacidade de **desenvo
   </tr>
 </table>
 
-
-
 [Git do Projeto](https://github.com/Vortek-API/Parent)
 
----
+</details>
 
-<!-- Repitir o bloco acima para cada projeto 2024-2, 2024-1, etc. -->
+---
+# CIMOB
+![Semestre](https://img.shields.io/badge/semestre-2%C2%BA%20%C2%B7%202024-lightgrey?logo=googledocs&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
+![JavaFX](https://img.shields.io/badge/JavaFX-007396?logo=openjdk&logoColor=white)
+![SceneBuilder](https://img.shields.io/badge/Scene%20Builder-ED8B00?logo=openjdk&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
+
+Aplicação desktop desenvolvida no 2º semestre com Java, uma solução inovadora para aprimorar o processo de avaliação de competências no PACER, dentro da metodologia de Aprendizagem por Projetos Integrados.
+
+<p align="center">
+<img width="756" height="315" alt="image" src="https://github.com/user-attachments/assets/5613a0d4-77f8-4d9b-b74c-03ebde2b8a55" />
+  <br/><br/>
+  <a href="[https://github.com/DenariusData/API-2SEM](https://github.com/Vortek-API/Cimob-parent)">
+    <img src="https://img.shields.io/badge/Repositório-GitHub-FF69B4?logo=github&logoColor=white" alt="Repositório" />
+  </a>
+</p>
+
+<details>
+  <summary>Detalhes do projeto</summary>
+
+  Conteúdo que fica escondido aqui.
+
+</details>
+
+---
