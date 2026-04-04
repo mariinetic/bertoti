@@ -631,11 +631,14 @@ Essa experiência foi determinante para consolidar minha capacidade de **desenvo
 
 ---
 # CIMOB (4º semestre)
-![Semestre](https://img.shields.io/badge/semestre-2%C2%BA%20%C2%B7%202025-lightgrey?logo=googledocs&logoColor=white)
+![Semestre](https://img.shields.io/badge/semestre-4%C2%BA%20%C2%B7%202025-lightgrey?logo=googledocs&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
-![JavaFX](https://img.shields.io/badge/JavaFX-007396?logo=openjdk&logoColor=white)
-![SceneBuilder](https://img.shields.io/badge/Scene%20Builder-ED8B00?logo=openjdk&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
+![JavaFX](https://img.shields.io/badge/Vue-007396?logo=openjdk&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-F80000?logo=oracle&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Nuxt](https://img.shields.io/badge/Nuxt-00DC82?logo=nuxt.js&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?logo=spring&logoColor=white)
 
 Aplicação desktop desenvolvida no 4º semestre com Java, uma solução inovadora para aprimorar o processo de avaliação de competências no PACER, dentro da metodologia de Aprendizagem por Projetos Integrados.
 
