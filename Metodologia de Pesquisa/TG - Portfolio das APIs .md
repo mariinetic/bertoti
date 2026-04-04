@@ -44,9 +44,137 @@ Aplicação de terminal com operações matemáticas, conversões numéricas e v
 <details>
   <summary>Detalhes do projeto</summary>
 
-  Conteúdo que fica escondido aqui.
-  Pode ser texto, listas, imagens, código...
+![Brown Minimalist Welcome Message X_Twitter Header](https://github.com/user-attachments/assets/f3d75862-9269-4cc3-8754-7818520bc0f6)
 
+
+
+O projeto foi desenvolvido no primeiro semestre de 2024 com o objetivo de consolidar conceitos fundamentais de lógica de programação e implementação de algoritmos. Ao longo do desenvolvimento, foi possível aplicar na prática estruturas de decisão, repetição e manipulação de dados, fortalecendo o raciocínio lógico e a organização do código.
+
+A solução consistiu em uma calculadora científica com interface textual, capaz de executar múltiplas operações em uma única execução. Entre as funcionalidades implementadas estiveram as operações básicas (soma, subtração, multiplicação e divisão), cálculo de fatorial, resolução de função do segundo grau e conversões entre diferentes bases numéricas, como binário, decimal, octal e hexadecimal. Também foi incluída a funcionalidade de concatenação de strings.
+
+Além disso, foram desenvolvidos algoritmos para cálculos financeiros, como juros simples e juros compostos, permitindo aplicar fórmulas matemáticas em contextos práticos. O projeto teve caráter didático e serviu como base para a evolução em conceitos mais avançados de programação e desenvolvimento de sistemas.
+
+<h2 align="center">Tecnologias</h2>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=vscode,ts,git,github,trello" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Visualg-Algoritmos-4CAF50?style=for-the-badge&logoColor=white" />
+</p>
+
+<img width="930" height="163" alt="image" src="https://github.com/user-attachments/assets/fe45a5b8-5aa1-4589-880c-0f9ab8c7d89d" />
+
+
+<details>
+<summary>integração de todas as funcionalidades no menu principal</summary>
+  
+<br>
+
+A função exibirMenu é responsável pela interface inicial de interação com o usuário no terminal. Inicialmente, utiliza clear() para limpar a tela, garantindo uma visualização organizada a cada nova execução do menu. Em seguida, exibe todas as opções disponíveis da aplicação, como operações matemáticas, conversões e funcionalidades adicionais.
+
+Para capturar a entrada do usuário, é utilizada a biblioteca readline-sync, especificamente o método questionInt, que assegura que o valor retornado seja um número inteiro, evitando inconsistências de tipo. Esse valor representa a escolha do usuário e é retornado pela função, sendo posteriormente utilizado para controlar o fluxo da aplicação.
+
+<p align="center">
+  <img width="361" height="360" alt="image" src="https://github.com/user-attachments/assets/0f79699d-e6cb-4888-92ee-48cc7218ec26" />
+</p>
+
+---
+
+A função executarOperacao atua como um controlador de fluxo baseado na escolha do usuário. Através de uma estrutura switch, ela mapeia cada opção numérica para uma funcionalidade específica do sistema, como chamadas para módulos de operações básicas, cálculo de fatorial, resolução de equação do segundo grau (Bhaskara), conversões de base, concatenação de strings e cálculo de juros.
+
+Cada caso do switch delega a responsabilidade para funções especializadas, promovendo modularização e separação de responsabilidades no código. Além disso, em operações que exibem resultados diretamente no terminal, é utilizado o keypress() para pausar a execução e permitir que o usuário visualize o resultado antes de retornar ao menu. A função também trata entradas inválidas por meio do bloco default, garantindo maior robustez.
+
+<p align="center">
+  <img width="409" height="485" alt="image" src="https://github.com/user-attachments/assets/d79e02cf-ac44-40ec-bc1d-ed15c1ee4d64" />
+</p>
+
+---
+
+A função menuGeral é o núcleo da aplicação, responsável por manter o ciclo de execução do sistema. Ela utiliza um loop do...while, garantindo que o menu seja exibido ao menos uma vez e continue sendo apresentado até que o usuário escolha encerrar o programa.
+
+Dentro do loop, a função chama exibirMenu() para obter a opção do usuário e realiza validações, verificando se o valor está dentro do intervalo permitido. Caso a opção seja inválida, o sistema informa o erro e reinicia o ciclo sem executar nenhuma operação.
+
+Quando uma opção válida é fornecida, a função limpa a tela e chama executarOperacao, delegando a execução da funcionalidade correspondente. Se o usuário selecionar a opção de saída (7), o programa exibe uma mensagem de encerramento e utiliza exit() para finalizar imediatamente a execução. Essa estrutura garante controle contínuo do fluxo, validação de entrada e organização da interação com o usuário.
+
+<p align="center">
+ <img width="424" height="387" alt="image" src="https://github.com/user-attachments/assets/ee23bb3a-b4aa-4281-a5be-784852674de4" />
+</p>
+
+
+
+
+
+</details>
+
+<details>
+  <summary>Função de cálculo de segundo grau (Bhaskára)</summary>
+
+  <br>
+  
+A função eq2grau foi implementada por mim com o objetivo de centralizar toda a regra de negócio do cálculo da equação do segundo grau, mantendo a lógica isolada da interface. Ela recebe três parâmetros tipados como number (a, b e c) e retorna dois possíveis tipos: um objeto com os valores calculados (x1, x2 e delta) ou uma string para representar um cenário inválido. Essa abordagem com union type ({...} | string) foi adotada para garantir um controle mais seguro do fluxo de execução, permitindo tratar diferentes resultados sem comprometer a aplicação.
+
+Inicialmente, essa lógica foi construída no Visualg, onde desenvolvi o algoritmo de forma estruturada, utilizando variáveis simples, entrada de dados via leia e saída com escreva. Nesse contexto, todo o processamento era feito de maneira sequencial, incluindo o cálculo do delta e das raízes. Ao migrar para TypeScript, mantive a mesma lógica base, porém reestruturei o código para separar responsabilidades e aplicar boas práticas, como tipagem explícita e retorno estruturado.
+
+Um ponto importante da implementação foi a decisão de não utilizar funções prontas como Math.sqrt(). Em vez disso, implementei manualmente o cálculo da raiz quadrada utilizando um loop do...while, baseado em um método iterativo. Essa escolha reforça a proposta do projeto de exercitar lógica e algoritmos, aproximando a solução do modelo desenvolvido no Visualg. Além disso, a função foi construída de forma independente de entrada ou saída de dados (exceto um log específico), tornando-a mais reutilizável, testável e alinhada com práticas mais profissionais de desenvolvimento.
+
+  <p align="center">
+ <img width="851" height="562" alt="image" src="https://github.com/user-attachments/assets/7f221406-acc7-4e6a-b2c7-aa133036302f" />
+</p>
+
+
+</details>
+
+<img width="933" height="153" alt="image" src="https://github.com/user-attachments/assets/051ad8aa-9248-4dee-804f-7dcf9d5fb227" />
+
+
+<details>
+<summary><strong>Hard Skills</strong></summary>
+
+<br>
+
+- **Lógica de Programação**  
+  Desenvolvimento de algoritmos desde a base no Visualg, utilizando estruturas condicionais, loops e variáveis. Evolução para TypeScript mantendo a mesma lógica, porém com melhor organização e controle de fluxo.
+
+- **TypeScript**  
+  Aplicação de tipagem estática para garantir maior segurança no código, uso de funções bem definidas, organização modular e prevenção de erros em tempo de desenvolvimento.
+
+- **Estrutura de Código e Modularização**  
+  Separação clara entre responsabilidades, dividindo o sistema em funções específicas (cálculo, interface e controle). Isso facilitou manutenção, leitura e reutilização do código.
+
+- **Algoritmos Matemáticos**  
+  Implementação manual de operações como fatorial, Bhaskara e conversões de bases numéricas, reforçando o raciocínio lógico e evitando dependência excessiva de funções prontas da linguagem.
+
+- **Interação via Terminal (CLI)**  
+  Utilização da biblioteca `readline-sync` para entrada de dados, controle de fluxo com menus interativos e validação de entradas do usuário.
+
+- **Controle de Fluxo**  
+  Uso de estruturas como `switch`, `if/else` e loops (`do...while`) para gerenciar a navegação do sistema e execução das funcionalidades.
+
+</details>
+
+<details>
+<summary><strong>Soft Skills</strong></summary>
+
+<br>
+
+- **Trabalho em Equipe**  
+  Participação ativa no desenvolvimento, colaborando com ideias, discutindo soluções e contribuindo para a evolução do projeto em conjunto.
+
+- **Resolução de Problemas**  
+  Identificação e correção de erros durante o desenvolvimento, adaptação da lógica e busca por soluções eficientes para cada funcionalidade implementada.
+
+- **Organização**  
+  Estruturação do projeto de forma clara, com separação de arquivos e responsabilidades, facilitando entendimento e futuras melhorias.
+
+- **Comunicação**  
+  Capacidade de explicar decisões técnicas, algoritmos e funcionamento do sistema de forma clara, tanto em documentação quanto em apresentações.
+
+- **Autonomia e Aprendizado Contínuo**  
+  Evolução do conhecimento a partir do Visualg até TypeScript, buscando entender não apenas o funcionamento, mas também boas práticas de desenvolvimento.
+
+</details>
 </details>
 
 ---
