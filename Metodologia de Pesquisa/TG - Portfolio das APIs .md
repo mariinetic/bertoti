@@ -677,6 +677,162 @@ A interface foi desenvolvida em Vue.js, sendo responsiva e intuitiva, integrando
 
 <img width="930" height="163" alt="image" src="https://github.com/user-attachments/assets/fe45a5b8-5aa1-4589-880c-0f9ab8c7d89d" />
 
+<details>
+<summary>Planejamento do projeto e prototipos de telas</summary>
+
+Fui responsável por toda a camada de frontend do projeto **CIMOB** (Controle Inteligente de Mobilidade), uma plataforma web voltada ao monitoramento de sistemas de mobilidade urbana de São José dos Campos, cobrindo desde a prototipação no Figma até a entrega final em produção.
+
+Antes de iniciar o desenvolvimento, fui responsável pela **prototipação completa de todas as telas no Figma**, criando os wireframes e o design inicial de cada interface do sistema — desde o login até o painel administrativo. O protótipo completo está disponível [aqui](https://www.figma.com/design/ODP0OoiQv6W4ddHt4jUGQn/CIMOB---API-4%C2%B0-Semestre?m=auto&t=F8g6PwKNA3BmtShf-6).
+
+A aplicação foi construída com **Vue.js** e **TypeScript**, adotando o **Composition API** para organização da lógica de cada componente de forma clara e reutilizável. A estrutura do projeto foi dividida em módulos independentes, facilitando manutenção e escalabilidade conforme novas funcionalidades eram adicionadas ao longo das sprints.
+
+As interfaces entregues incluem **tela de login e cadastro** com validações em tempo real, toggle de visibilidade de senha e redirecionamento automático após autenticação; **tela principal com dashboard de indicadores** de mobilidade urbana filtráveis por região, com suporte a hover para exibição de detalhes e seleção customizada de até 6 indicadores simultâneos pelo administrador; **visualização de mapa interativo** com carregamento de radares e pontos de ônibus de São José dos Campos, com filtros de camadas e contagem total de pontos; **painel administrativo** com gerenciamento de usuários, tabela de logs com filtros por tipo, data e usuário, além de criação e edição de eventos externos georreferenciados; e integração com **grupo do Telegram** para envio automático de alertas críticos em tempo real aos administradores.
+
+O consumo de APIs RESTful foi feito com **Axios**, configurado com interceptors para tratamento centralizado de erros e autenticação JWT. O gerenciamento de estado global foi implementado com **Pinia**, e os fluxos assíncronos foram controlados via **Composables**, garantindo atualizações em tempo real nos indicadores e logs da interface.
+
+O código seguiu padrões de **clean code** e **separação de responsabilidades**, com componentes pequenos e bem definidos, composables para lógica compartilhada e uma camada de serviços dedicada à comunicação com o backend. Isso tornou o projeto mais fácil de testar, evoluir e revisar em equipe.
+
+
+</details>
+
+
+<details>
+<summary> Documentação do projeto</summary>
+
+Fui responsável pela produção de toda a documentação do projeto, centralizada em um repositório dedicado, organizado para cobrir todas as etapas do ciclo de desenvolvimento do CIMOB.
+Elaborei o manual do usuário, guiando qualquer pessoa pelo uso da plataforma tela a tela, desde o primeiro acesso até as funcionalidades exclusivas do administrador. Produzi também o guia de instalação, com o passo a passo completo para configurar e executar o projeto localmente, cobrindo dependências, variáveis de ambiente e execução dos serviços.
+Além disso, organizei as apresentações das sprints, documentando a evolução das entregas ao longo do semestre, as decisões técnicas tomadas em cada ciclo e o progresso das funcionalidades implementadas. Por fim, compilei os vídeos de evolução do projeto, que registram visualmente o desenvolvimento da aplicação do início ao fim, mostrando como o sistema foi tomando forma sprint a sprint.
+Toda a documentação foi produzida com o mesmo cuidado aplicado ao código, garantindo rastreabilidade, clareza e facilidade de onboarding para qualquer pessoa que queira entender ou dar continuidade ao projeto.
+
+<img width="497" height="389" alt="image" src="https://github.com/user-attachments/assets/9eac7e81-e287-4974-abfd-415430bc822b" />
+
+<img width="502" height="484" alt="image" src="https://github.com/user-attachments/assets/3b720f13-5725-4745-99f3-c2121ea5f42f" />
+
+</details>
+
+<details>
+<summary>Product Owner: Definição de Prioridades, Organização do Backlog e Alinhamento com a Empresa</summary>
+  
+Assumi a função de **Product Owner (PO)**, atuando na **gestão do backlog**, **definição de prioridades** e **mediação entre o time técnico e as partes interessadas**.  
+Trabalhei na **elaboração de user stories detalhadas**, com **critérios de aceitação claros** e **descrições técnicas completas**, permitindo que a equipe de desenvolvimento tivesse clareza total sobre o escopo de cada tarefa e com isso a construção da documentação de toda a nossa aplicação.  
+
+
+Realizei **revisões constantes do backlog**, ajustando prioridades conforme feedbacks do cliente e métricas de valor.  
+Essa atuação me ensinou a equilibrar **viabilidade técnica**, **valor de negócio** e **disponibilidade de recursos**, otimizando o uso do tempo e reduzindo gargalos durante o ciclo do sprint.  
+
+Apliquei também práticas de **Scrum** e **Kanban**, utilizando ferramentas como **Jira e Trello** para visualização do fluxo de tarefas e acompanhamento de métricas de produtividade.  
+A comunicação constante com a equipe e os stakeholders permitiu garantir **alinhamento estratégico** e **entregas contínuas de valor**, transformando requisitos complexos em resultados concretos e mensuráveis. 
+exemplo de entregaveis:  
+- [Sprint 1](https://github.com/Vortek-API/cimob-docs/blob/main/CIMOB%20-%20V1.pptx)
+- [Sprint 2](https://github.com/Vortek-API/cimob-docs/blob/main/CIMOB%20-%20V2.pptx)
+- [Sprint 3](https://github.com/Vortek-API/cimob-docs/blob/main/CIMOB%20-%20V3.pptx)
+  
+</details>
+
+
+<details>
+<summary>Feitura de todas as telas do frontend</summary>
+
+🔐 Login e Cadastro
+A tela de login conta com autenticação por e-mail e senha, toggle de visibilidade de senha e link para recuperação de acesso. Já a tela de cadastro possui formulário com campos obrigatórios e realiza o login automaticamente após o registro.
+<div align="center">
+<img width="750" height="336" alt="login" src="https://github.com/user-attachments/assets/93ec962f-0784-4263-89b1-0265dd5df6ce" />
+<img width="868" height="602" alt="cadastro" src="https://github.com/user-attachments/assets/a710ed9a-9c95-400c-9b61-0b5161148880" />
+</div>
+
+🏠 Tela Principal
+A tela principal é o centro da aplicação, com sidebar de navegação, dashboard de indicadores de mobilidade urbana filtráveis por região, exibição de índices críticos e timestamp da última atualização dos dados.
+<div align="center">
+<img width="759" height="331" alt="tela principal" src="https://github.com/user-attachments/assets/2a532700-a087-4217-b2ee-5f9a92afe9b2" />
+</div>
+
+🗺️ Mapas
+A tela de mapas oferece visualização interativa com radares e pontos de ônibus de São José dos Campos, filtros de camadas e contagem total de pontos no mapa.
+<div align="center">
+<img width="700" height="371" alt="mapas" src="https://github.com/user-attachments/assets/06cd01ea-82ac-4bbe-b4fa-6365c96c5e21" />
+</div>
+
+📊 Dashboard
+O dashboard é dividido em duas subpáginas: Velocidades Registradas e Tipos de Veículos, ambas apresentando os dados coletados pelos radares da cidade.
+
+🛡️ Administrador
+Para usuários com perfil de administrador, foram desenvolvidas três telas exclusivas: Logs, com tabela completa de atividades filtráveis por usuário, indicador, tipo e data; Acessos, com gerenciamento de usuários, criação de novos acessos, edição de permissões e exclusão; e Eventos Externos, para criação e listagem de eventos georreferenciados exibidos diretamente no mapa.
+<div align="center">
+<img width="750" height="339" alt="logs" src="https://github.com/user-attachments/assets/1f78592f-cd39-4b35-b773-82f3111f1ef2" />
+<img width="754" height="330" alt="acessos" src="https://github.com/user-attachments/assets/c1908add-08e2-48a4-b25c-5017a2010f93" />
+</div>
+
+✉️ Telegram e Recuperação de Senha
+Foi implementada a integração com o Telegram, onde administradores acessam o grupo de alertas em tempo real direto pela interface. A tela de recuperação de senha permite que o usuário informe seu e-mail e receba o link de redefinição, com confirmação visual de envio na própria tela.
+<div align="center">
+<img width="582" height="548" alt="telegram e recuperação de senha" src="https://github.com/user-attachments/assets/31e592d4-fe30-465e-8ed6-eea4ab49b516" />
+</div>
+</details>
+
+<details>
+<summary>Implementação do e monitoramento dos logs no telegram</summary>
+Contribuí com a implementação da integração entre o backend e o Telegram, conectando o sistema ao bot oficial da plataforma para envio automático de mensagens ao grupo de alertas. A integração utiliza a API do Telegram via requisições HTTP, enviando notificações em tempo real sempre que um evento relevante é registrado no sistema, como novos logs e alertas críticos. As mensagens são enviadas com formatação Markdown, permitindo uma leitura mais clara e estruturada diretamente no grupo.
+<div align="center">
+<img width="865" height="497" alt="image" src="https://github.com/user-attachments/assets/392f1037-5462-4f40-8456-03585f7f5b77" />
+
+</div>
+
+O serviço foi desenvolvido em Java com Spring Boot e funciona da seguinte forma: o token do bot e o ID do grupo são carregados de variáveis de ambiente, mantendo dados sensíveis fora do código. Quando um evento é disparado no sistema, o serviço monta uma requisição HTTP via RestTemplate e faz um POST direto para a API oficial do Telegram, passando o ID do grupo destino, o conteúdo da mensagem e o modo de formatação Markdown, que permite enviar alertas com negrito, itálico e links clicáveis diretamente no grupo.
+
+<div align="center">
+<img width="629" height="433" alt="image" src="https://github.com/user-attachments/assets/e928de5f-6e91-43e0-bb22-ecb1e4062d60" />
+
+</div>
+
+Contribuí também com a formatação das mensagens de alerta enviadas ao Telegram. O sistema verifica automaticamente a cada 5 minutos todos os indicadores de cada região da cidade e, quando algum atinge nível crítico, dispara o alerta automaticamente.
+Cada mensagem chega formatada com o nível de severidade em três graus — Normal, Atenção e Crítico — com emojis, barra de progresso visual, região afetada, horário do registro e uma recomendação de ação personalizada conforme a gravidade, tudo em Markdown para ficar organizado e legível no grupo.
+
+<div align="center">
+<img width="950" height="612" alt="image" src="https://github.com/user-attachments/assets/4d38f849-0683-4e08-9fc7-653a76b4934a" />
+
+</div>
+
+</details>
+
+<img width="933" height="153" alt="image" src="https://github.com/user-attachments/assets/051ad8aa-9248-4dee-804f-7dcf9d5fb227" />
+
+<details>
+<summary><strong>Hard Skills</strong></summary>
+<br>
+
+- **Vue.js**
+Fui responsável por toda a camada de frontend do projeto CIMOB, construindo a aplicação com Vue.js e TypeScript usando o Composition API. A estrutura foi dividida em módulos independentes, facilitando manutenção e escalabilidade conforme novas funcionalidades eram adicionadas ao longo das sprints.
+
+- **TypeScript**
+Utilizei TypeScript em todo o frontend para garantir tipagem segura, criando interfaces, composables reutilizáveis e serviços para requisições HTTP, prevenindo erros e facilitando a manutenção do código em longo prazo.
+
+- **Figma**
+Fui responsável pela prototipação completa de todas as telas antes do desenvolvimento, criando wireframes e o design inicial de cada interface — do login ao painel administrativo. O protótipo está disponível [aqui](https://www.figma.com/design/ODP0OoiQv6W4ddHt4jUGQn/CIMOB---API-4%C2%B0-Semestre?m=auto&t=F8g6PwKNA3BmtShf-6).
+
+- **Java / Spring Boot**
+Contribuí com a integração do sistema ao Telegram via Spring Boot, com envio automático de alertas formatados em Markdown para o grupo de administradores. Implementei também o agendador que verifica a cada 5 minutos os indicadores de cada região e dispara notificações com nível de severidade, barra de progresso visual, horário e recomendação de ação conforme a gravidade.
+
+</details>
+
+<details>
+<summary><strong>Soft Skills</strong></summary>
+<br>
+
+- **Organização**
+Centralizei toda a documentação do projeto em um [repositório dedicado](https://github.com/Vortek-API/cimob-docs), reunindo manual do usuário, guia de instalação, apresentações das sprints ([Sprint 1](https://github.com/Vortek-API/cimob-docs/blob/main/CIMOB%20-%20V1.pptx), [Sprint 2](https://github.com/Vortek-API/cimob-docs/blob/main/CIMOB%20-%20V2.pptx), [Sprint 3](https://github.com/Vortek-API/cimob-docs/blob/main/CIMOB%20-%20V3.pptx)) e vídeos de evolução, mantendo tudo atualizado e acessível ao longo do semestre.
+
+- **Comunicação**
+Traduzi decisões técnicas em documentações claras e acessíveis, garantindo que qualquer pessoa pudesse entender ou dar continuidade ao projeto sem dificuldade.
+
+- **Trabalho em equipe**
+Colaborei com diferentes frentes do projeto, atuando tanto no frontend quanto no backend. A integração com o Telegram, por exemplo, exigiu alinhamento direto com o time para garantir que os alertas chegassem no formato e no momento certos.
+
+- **Resolução de problemas**
+Atuei de forma proativa em diferentes camadas do sistema, desde ajustes de interface até a lógica de formatação dos alertas, buscando soluções eficientes para os desafios encontrados ao longo do desenvolvimento.
+
+</details>
+
+
 
 
 </details>
