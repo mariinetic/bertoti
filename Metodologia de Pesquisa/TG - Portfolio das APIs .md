@@ -401,48 +401,37 @@ O "Sistema de Ponto" é uma aplicação web do 3º semestre projetada para geren
 
 
 <details>
-<summary>TIMESYNC – 2025-1</summary>
+<summary>Detalhes do projeto</summary>
 
-### TIMESYNC – 2025-1
+![Brown Minimalist Welcome Message X_Twitter Header](https://github.com/user-attachments/assets/f3d75862-9269-4cc3-8754-7818520bc0f6)
 
-*Descrição:*  
-Desafio proposto pela empresa Altave especializada em monitoramento inteligente com hardware e software próprios, utilizando inteligência artificial para fornecer informações em tempo real.
+O projeto TIMESYNC foi desenvolvido com o objetivo de automatizar o controle de ponto e o monitoramento de equipes, substituindo processos manuais por uma solução digital integrada, mais segura, padronizada e escalável
 
-*Benefícios Entregues:*  
-- Automação de processos manuais, reduzindo erros e tempo de administração  
-- Maior visibilidade da equipe e controle de presença  
-- Relatórios confiáveis para tomada de decisão  
-- Interface amigável e fácil de usar  
-- Suporte à escalabilidade
+A aplicação permite registrar, armazenar e analisar dados de presença e jornada de trabalho em tempo real, centralizando informações que antes eram dispersas e facilitando a gestão operacional, com isso tornando possível acompanhar o desempenho dos colaboradores, identificar padrões e apoiar a tomada de decisão de forma mais estratégica
 
-*Desafios Enfrentados:*  
-- Garantir segurança e confiabilidade nos registros de ponto  
-- Sincronização de dados entre múltiplos dispositivos  
-- Integração do backend e frontend mantendo performance  
-- Ajustes de usabilidade para diferentes perfis de usuário
+A solução foi construída seguindo uma arquitetura full stack, com frontend em Angular e backend em Java utilizando o Spring Framework, além da persistência em banco de dados MySQL, garantindo comunicação eficiente entre as camadas, consistência dos dados e maior confiabilidade no sistema
 
-*Tecnologias Utilizadas:*  
+Entre as principais funcionalidades implementadas estão o registro de ponto com armazenamento estruturado em banco de dados, a visualização de informações por colaborador, empresa e período, a aplicação de filtros dinâmicos para consultas específicas, a geração de relatórios com dados consolidados, o controle de autenticação e autorização de usuários e a integração entre múltiplos módulos da aplicação
+
+O desenvolvimento do projeto também envolveu preocupações com usabilidade, organização do código e separação de responsabilidades, permitindo que o sistema fosse facilmente mantido e evoluído ao longo do tempo
+
+<h2 align="center">Tecnologias</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java&color=green" width="50" />
-  <img src="https://skillicons.dev/icons?i=angular&color=green" width="50" />
-  <img src="https://skillicons.dev/icons?i=github&color=green" width="50" />
-  <img src="https://skillicons.dev/icons?i=vscode&color=green" width="50" />
-  <img src="https://skillicons.dev/icons?i=git&color=green" width="50" />
-  <img src="https://skillicons.dev/icons?i=figma&color=green" width="50" />
-  <img src="https://skillicons.dev/icons?i=mysql&color=green" width="50" />
-  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Spring-Dark.svg" width="50" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
 </p>
 
----
+<img width="930" height="163" alt="image" src="https://github.com/user-attachments/assets/fe45a5b8-5aa1-4589-880c-0f9ab8c7d89d" />
 
-# Contribuições Pessoais
-
----
-
-## Tela de colaboradores e Tela de espelho de ponto
 <details>
-<summary>Ver mais</summary>
+<summary>Tela de colaboradores e Tela de espelho de ponto</summary>
 
 No projeto acadêmico, atuei no **desenvolvimento completo da camada de frontend** utilizando **Angular** e **TypeScript**, tecnologias que combinam modularidade e tipagem estática para garantir alta manutenibilidade do código.  
 
@@ -468,11 +457,8 @@ Saber **estruturar componentes reutilizáveis**, **gerenciar estados com eficiê
 
 </details>
 
----
-
-## Modelagem inicial do banco
 <details>
-<summary>Ver mais</summary>
+<summary> Modelagem inicial do banco</summary>
 
 <img width="1046" height="582" alt="image" src="https://github.com/user-attachments/assets/4c17c311-24e8-48f1-b37f-762f835620d2" />
 
@@ -492,12 +478,9 @@ Na **Ericsson**, essa base técnica é essencial para manipular **grandes volume
 O domínio de **modelagem de dados**, **otimização de queries** e **normalização** é um diferencial para integrar sistemas corporativos e suportar funcionalidades de análise avançada e relatórios customizados em tempo real.  
 
 </details>
-
----
-
-## Java e Spring Framework no Backend (Tela de espelho de ponto)
+ 
 <details>
-<summary>Ver mais</summary>
+<summary>Java e Spring Framework no Backend (Tela de espelho de ponto)</summary>
 
 <img width="1856" height="938" alt="image" src="https://github.com/user-attachments/assets/3e72d381-3f85-429e-a199-c5cd945021a1" />
 
@@ -517,11 +500,8 @@ O conhecimento em **Spring Boot**, **JPA/Hibernate** e **RESTful Design** permit
 
 </details>
 
----
-
-## Product Owner: Definição de Prioridades, Organização do Backlog e Alinhamento com a Empresa
 <details>
-<summary>Ver mais</summary>
+<summary>Product Owner: Definição de Prioridades, Organização do Backlog e Alinhamento com a Empresa</summary>
 
 ![1751367289922](https://github.com/user-attachments/assets/d648d5cd-4e7a-4c87-a94a-9b75ab6de09a)
 
@@ -544,11 +524,8 @@ Essa experiência ampliou minhas habilidades de **planejamento, priorização e 
 
 </details>
 
----
-
-## Definição de todo o protótipo da aplicação
 <details>
-<summary>Ver mais</summary>
+<summary>Definição de todo o protótipo da aplicação</summary>
 
 <img width="1187" height="861" alt="image" src="https://github.com/user-attachments/assets/af5d524f-9f03-41b0-b5cb-59a2019fc6c9" />
 
@@ -570,89 +547,52 @@ Essa experiência foi determinante para consolidar minha capacidade de **desenvo
 
 </details>
 
----
+<img width="933" height="153" alt="image" src="https://github.com/user-attachments/assets/051ad8aa-9248-4dee-804f-7dcf9d5fb227" />
 
-## Hard & Soft Skills
+<details>
+<summary><strong>Hard Skills</strong></summary>
 
-<table align="center">
-  <tr>
-    <th>Tipo</th>
-    <th>Skill</th>
-    <th>Descrição/Atividades</th>
-  </tr>
-  <tr>
-    <td>Hard</td>
-    <td><img src="https://skillicons.dev/icons?i=java&color=green" width="50" /></td>
-    <td>
-      <details><summary>Ver detalhes</summary>No backend, utilizei Java para criar APIs RESTful que deram suporte às funcionalidades do sistema. Atividades: desenvolvimento de endpoints detalhados (VTK-67), ajustes para empresas e colaboradores (VTK-28/30), filtros por data/empresa/profissional, integração com Spring Framework.</details>
-    </td>
-  </tr>
-  <tr>
-    <td>Hard</td>
-    <td><img src="https://skillicons.dev/icons?i=angular&color=green" width="50" /></td>
-    <td>
-      <details><summary>Ver detalhes</summary>No frontend, utilizei Angular para desenvolver interfaces dinâmicas: telas de cadastro, upload de fotos com preview, listas filtráveis e ordenáveis, dashboard interativo com gráficos e relatórios exportáveis.</details>
-    </td>
-  </tr>
-  <tr>
-    <td>Hard</td>
-    <td><img src="https://skillicons.dev/icons?i=typescript&color=green" width="50" /></td>
-    <td>
-      <details><summary>Ver detalhes</summary>Usei TypeScript para estruturar o frontend e garantir tipagem segura: criação de interfaces, serviços reutilizáveis para HTTP/filtros/datas, tipagem de componentes Angular para prevenir erros e aumentar manutenção.</details>
-    </td>
-  </tr>
-  <tr>
-    <td>Hard</td>
-    <td><img src="https://skillicons.dev/icons?i=mysql&color=green" width="50" /></td>
-    <td>
-      <details><summary>Ver detalhes</summary>Modelagem de tabelas (empresas, profissionais, registros de ponto), consultas filtradas, totalização de horas, otimização de queries, preparação de dados para APIs e exportação em PDF/Excel.</details>
-    </td>
-  </tr>
-  <tr>
-    <td>Hard</td>
-    <td><img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Spring-Dark.svg" width="50" /></td>
-    <td>
-      <details><summary>Ver detalhes</summary>Estruturação do backend em camadas (serviço, repositório, controlador), autenticação e autorização, validação de dados, tratamento de exceções, integração com Angular/TypeScript.</details>
-    </td>
-  </tr>
-  <tr>
-    <td>Soft</td>
-    <td>Comunicação</td>
-    <td>
-      <details><summary>Ver detalhes</summary>Atuei como ponto de contato entre cliente e equipe, traduzindo requisitos, participando de reuniões, criando user stories e tarefas detalhadas, minimizando retrabalho e garantindo alinhamento.</details>
-    </td>
-  </tr>
-  <tr>
-    <td>Soft</td>
-    <td>Liderança</td>
-    <td>
-      <details><summary>Ver detalhes</summary>Atuei como Product Owner, coordenando equipe multidisciplinar, definindo metas, planejando sprints, promovendo engajamento e feedback, garantindo entregas de qualidade.</details>
-    </td>
-  </tr>
-  <tr>
-    <td>Soft</td>
-    <td>Organização</td>
-    <td>
-      <details><summary>Ver detalhes</summary>Gerenciamento de backlog, priorização de tarefas, planejamento de sprints, acompanhamento de entregas, manutenção de registros detalhados para decisões transparentes.</details>
-    </td>
-  </tr>
-  <tr>
-    <td>Soft</td>
-    <td>Trabalho em equipe</td>
-    <td>
-      <details><summary>Ver detalhes</summary>Colaboração com perfis técnicos variados, incentivo à troca de conhecimento, revisão coletiva, mediação de conflitos e integração eficiente das entregas.</details>
-    </td>
-  </tr>
-  <tr>
-    <td>Soft</td>
-    <td>Resolução de problemas</td>
-    <td>
-      <details><summary>Ver detalhes</summary>Identificação rápida de obstáculos, avaliação de alternativas, implementação de soluções eficientes, replanejamento de tarefas e manutenção do fluxo de trabalho.</details>
-    </td>
-  </tr>
-</table>
+<br>
 
-[Git do Projeto](https://github.com/Vortek-API/Parent)
+- **Java**  
+  No backend, utilizei Java para criar APIs RESTful que deram suporte às funcionalidades do sistema. Atividades: desenvolvimento de endpoints detalhados (VTK-67), ajustes para empresas e colaboradores (VTK-28/30), filtros por data, empresa e profissional, integração com Spring Framework. Também atuei na organização das rotas, padronização de respostas e estruturação da aplicação para facilitar manutenção e escalabilidade.
+
+- **Angular**  
+  No frontend, utilizei Angular para desenvolver interfaces dinâmicas, incluindo telas de cadastro, upload de fotos com preview, listas filtráveis e ordenáveis, além de dashboard interativo com gráficos e relatórios exportáveis. Trabalhei com componentização, reaproveitamento de código e organização da aplicação para garantir melhor experiência do usuário e facilidade de evolução.
+
+- **TypeScript**  
+  Usei TypeScript para estruturar o frontend e garantir tipagem segura, com criação de interfaces, serviços reutilizáveis para requisições HTTP, filtros e manipulação de datas. A tipagem foi aplicada nos componentes Angular para prevenir erros, melhorar a legibilidade do código e facilitar manutenção em longo prazo.
+
+- **MySQL**  
+  Realizei a modelagem de tabelas como empresas, profissionais e registros de ponto, além da criação de consultas filtradas e totalização de horas. Trabalhei com otimização de queries, uso de joins e preparação de dados para consumo em APIs e exportação em formatos como PDF e Excel, garantindo performance e integridade das informações.
+
+- **Spring Framework**  
+  Estruturei o backend em camadas (service, repository e controller), aplicando autenticação e autorização, validação de dados e tratamento de exceções. Também participei da integração com Angular e TypeScript, garantindo comunicação eficiente entre frontend e backend e organização do fluxo de dados da aplicação.
+
+</details>
+
+<details>
+<summary><strong>Soft Skills</strong></summary>
+
+<br>
+
+- **Comunicação**  
+  Atuei como ponto de contato entre cliente e equipe, traduzindo requisitos de negócio para linguagem técnica, participando de reuniões e criando user stories e tarefas detalhadas. Essa atuação ajudou a minimizar retrabalho e garantir alinhamento entre todos os envolvidos no projeto.
+
+- **Liderança**  
+  Atuei como Product Owner, coordenando equipe multidisciplinar, definindo metas, planejando sprints e promovendo engajamento do time. Também fui responsável por acompanhar entregas, priorizar demandas e garantir que o projeto evoluísse de forma consistente e organizada.
+
+- **Organização**  
+  Realizei o gerenciamento de backlog, priorização de tarefas, planejamento de sprints e acompanhamento das entregas. Mantive registros detalhados e organização das atividades, contribuindo para maior clareza nas decisões e melhor controle do andamento do projeto.
+
+- **Trabalho em equipe**  
+  Colaborei com diferentes perfis técnicos, incentivando a troca de conhecimento, realizando revisões coletivas e ajudando na integração das entregas. Também atuei na mediação de conflitos e no alinhamento de decisões técnicas em grupo.
+
+- **Resolução de problemas**  
+  Atuei na identificação rápida de obstáculos, análise de cenários e avaliação de alternativas. Implementei soluções eficientes, replanejei tarefas quando necessário e garanti a continuidade do fluxo de desenvolvimento mesmo diante de imprevistos.
+
+</details>
+
 
 </details>
 
