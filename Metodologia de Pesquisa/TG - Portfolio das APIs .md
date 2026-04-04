@@ -351,7 +351,7 @@ Essa experiência foi determinante para consolidar minha capacidade de **desenvo
 
 ---
 # CIMOB
-![Semestre](https://img.shields.io/badge/semestre-2%C2%BA%20%C2%B7%202024-lightgrey?logo=googledocs&logoColor=white)
+![Semestre](https://img.shields.io/badge/semestre-2%C2%BA%20%C2%B7%202025-lightgrey?logo=googledocs&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
 ![JavaFX](https://img.shields.io/badge/JavaFX-007396?logo=openjdk&logoColor=white)
 ![SceneBuilder](https://img.shields.io/badge/Scene%20Builder-ED8B00?logo=openjdk&logoColor=white)
