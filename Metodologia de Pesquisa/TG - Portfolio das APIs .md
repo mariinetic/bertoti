@@ -57,7 +57,11 @@ Além disso, foram desenvolvidos algoritmos para cálculos financeiros, como jur
 <h2 align="center">Tecnologias</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=vscode,ts,git,github,trello" />
+  <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white" />
 </p>
 
 <p align="center">
@@ -197,8 +201,183 @@ Aplicação desktop desenvolvida no 2º semestre com Java, uma solução inovado
 
 <details>
   <summary>Detalhes do projeto</summary>
+  
+  ![Brown Minimalist Welcome Message X_Twitter Header](https://github.com/user-attachments/assets/f3d75862-9269-4cc3-8754-7818520bc0f6)
 
-  Conteúdo que fica escondido aqui.
+  O projeto foi desenvolvido no segundo semestre de 2025 no contexto da Aprendizagem por Projetos Integrados (API), com o objetivo de automatizar e padronizar o processo de avaliação de competências no PACER, substituindo o modelo manual sujeito a erros e inconsistências.
+
+A solução consistiu em um sistema web que permite a avaliação entre membros de equipes ao final de cada Sprint, com armazenamento seguro dos dados e geração de relatórios detalhados para professores, incluindo médias por aluno e por grupo.
+
+Entre as principais funcionalidades, destacam-se o gerenciamento de grupos, personalização de critérios de avaliação, controle automático do calendário de Sprints com base na data e autenticação de usuários, garantindo a integridade e a segurança do processo.
+
+O projeto teve foco prático, contribuindo para o desenvolvimento de habilidades em organização de dados, automação de processos e construção de sistemas mais eficientes.
+
+<h2 align="center">Tecnologias</h2>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" />
+  <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaFX-007396?style=for-the-badge&logo=java&logoColor=white" />
+  <img src="https://img.shields.io/badge/SceneBuilder-JavaFX-orange?style=for-the-badge&logo=java&logoColor=white" />
+</p>
+
+<img width="930" height="163" alt="image" src="https://github.com/user-attachments/assets/fe45a5b8-5aa1-4589-880c-0f9ab8c7d89d" />
+
+<details>
+  <summary>Implementação da tela de login e redefinição de senha</summary>
+
+A tela de login foi desenvolvida como ponto de entrada da aplicação, sendo responsável pela autenticação do usuário e controle de acesso ao sistema. Sua estrutura foi pensada para ser simples e objetiva, garantindo uma boa experiência mesmo em um ambiente desktop.
+
+A interface foi construída utilizando JavaFX com Scene Builder, permitindo a separação entre a camada visual (FXML) e a lógica de controle (controller). A tela contém campos para inserção de credenciais (usuário e senha), além de botões de ação, como “Entrar”. O uso do Scene Builder facilitou a organização dos componentes visuais e o alinhamento dos elementos, mantendo um padrão consistente de layout.
+
+No backend da aplicação, a validação das credenciais foi implementada por meio da verificação dos dados informados com os registros armazenados (por exemplo, em banco de dados ou estrutura interna). O sistema trata diferentes cenários, como credenciais inválidas ou campos não preenchidos, exibindo mensagens de feedback ao usuário.
+
+Além disso, foram aplicados conceitos importantes como:
+
+Validação de entrada: verificação de campos vazios antes do processamento
+Controle de fluxo: redirecionamento do usuário após login bem-sucedido
+Tratamento de erros: exibição de mensagens claras em caso de falha
+Separação de responsabilidades: divisão entre interface (FXML), controle (Controller) e lógica
+
+  <p align="center">
+ <img width="1052" height="624" alt="image" src="https://github.com/user-attachments/assets/2b0aba40-1b62-4aad-831d-c331199fc64c" />
+
+ <br>
+ 
+ <img width="523" height="362" alt="image" src="https://github.com/user-attachments/assets/6d64a086-6c70-416b-879a-36e96d9bc8ef" />
+
+
+</p>
+
+Esse controller foi desenvolvido para gerenciar a funcionalidade de recuperação de senha, sendo responsável pela interação entre a interface JavaFX e a lógica de validação dos dados informados pelo usuário. O método initialize é executado automaticamente ao carregar a tela. Nele, foi implementado um listener no campo txtRA, responsável por validar a entrada em tempo real.
+
+Permite apenas valores numéricos (\\d*)
+Impede que o RA ultrapasse 13 dígitos
+Em caso de entrada inválida, o valor anterior é restaurado
+Exibe uma mensagem de alerta utilizando mbox
+
+Esse método é acionado ao clicar no botão de envio. Ele concentra o fluxo principal da recuperação de senha:
+
+Captura do valor digitado
+Obtém o RA a partir do campo txtRA
+Validação inicial
+Verifica se o campo está vazio
+Caso esteja, exibe um alerta e interrompe a execução
+Feedback ao usuário
+Exibe uma mensagem de sucesso simulando o envio do RA
+Consulta de dados
+Realiza a busca do aluno através do AlunoDAO, utilizando o RA informado
+Controle de navegação
+Caso o aluno exista, realiza a troca de tela com sceneSwitcher
+Recupera o controller da próxima tela (RedefinirSenhaController)
+Passa o objeto Aluno para configuração da próxima etapa
+Limpeza de estado
+Limpa o campo txtRA após o processamento
+
+  <p align="center">
+<img width="1008" height="617" alt="image" src="https://github.com/user-attachments/assets/2a7f4240-4b51-4169-9af4-5e938b94e79d" />
+
+
+ <br>
+
+<img width="228" height="87" alt="image" src="https://github.com/user-attachments/assets/3cb6f126-6b03-4a03-b2dd-598febc5959e" />
+
+
+<br>
+ 
+<img width="652" height="360" alt="image" src="https://github.com/user-attachments/assets/d7bda901-7788-4f6a-a94a-2f7d47e8732d" />
+
+
+
+</p>
+
+
+
+
+A implementação dessa funcionalidade contribuiu para o entendimento de conceitos essenciais como autenticação, organização de interfaces gráficas e integração entre frontend e lógica da aplicação, sendo um componente fundamental para a estrutura do sistema.
+
+</details>
+
+
+<details>
+  <summary>Implementação da Modelagem de banco de dados</summary>
+
+  O banco de dados foi modelado seguindo o modelo relacional, com foco em representar de forma organizada as entidades do sistema e seus relacionamentos. A estrutura foi pensada para garantir integridade dos dados, evitar redundâncias e facilitar consultas futuras, principalmente relacionadas ao acompanhamento acadêmico.
+
+A entidade central do sistema é o aluno, que possui informações como RA, nome, email e senha. Os alunos podem ser organizados em grupos, permitindo o trabalho em equipe dentro da aplicação. Além disso, há a entidade professor, responsável por gerenciar e acompanhar avaliações, critérios e o desempenho dos alunos ao longo do tempo.
+
+As avaliações armazenam informações como nota e data, sendo associadas tanto aos alunos quanto aos critérios definidos no sistema. Os critérios funcionam como parâmetros de avaliação, contendo descrição, nome e status. Já as sprints representam períodos de desenvolvimento, com datas de início e fim, e estão relacionadas ao calendário, que organiza os semestres e períodos letivos.
+
+Os relacionamentos foram definidos para refletir o funcionamento real do sistema, como aluno pertencendo a grupo, realização de avaliações e associação entre avaliações e critérios. Dessa forma, o banco permite consultas mais completas, como análise de desempenho por aluno, por sprint ou por critério, além de oferecer uma base estruturada para futuras melhorias e expansão do sistema.
+
+<p align="center">
+<img width="619" height="327" alt="image" src="https://github.com/user-attachments/assets/22bf4cea-1dd5-4657-b9a5-75f03e53f7aa" />
+</p>
+  
+</details>
+
+<img width="933" height="153" alt="image" src="https://github.com/user-attachments/assets/051ad8aa-9248-4dee-804f-7dcf9d5fb227" />
+
+<details>
+<summary><strong>Hard Skills</strong></summary>
+
+<br>
+
+- **Java e Programação Orientada a Objetos (POO)**  
+  Desenvolvimento da aplicação utilizando conceitos como encapsulamento, classes, objetos e separação de responsabilidades, garantindo organização e reutilização de código.
+
+- **JavaFX e Interfaces Gráficas**  
+  Construção de interfaces desktop com JavaFX e Scene Builder, separando estrutura visual (FXML) da lógica (Controller) para melhor manutenção e escalabilidade.
+
+- **Integração com Banco de Dados (MySQL)**  
+  Modelagem e manipulação de dados em banco relacional, com foco em integridade, organização e consultas eficientes para geração de relatórios.
+
+- **Modelagem de Banco de Dados**  
+  Estruturação de entidades como aluno, grupo, avaliação, critérios e sprint, definindo relacionamentos coerentes com as regras de negócio do sistema.
+
+- **Autenticação e Controle de Acesso**  
+  Implementação de login com validação de credenciais, garantindo segurança e restrição de acesso às funcionalidades do sistema.
+
+- **Validação de Dados**  
+  Tratamento de entradas do usuário (como RA), aplicação de regras de validação e prevenção de erros durante a execução do sistema.
+
+- **Arquitetura e Organização de Código (MVC)**  
+  Separação entre interface, controle e lógica da aplicação, facilitando manutenção, testes e evolução do sistema.
+
+</details>
+
+<details>
+<summary><strong>Soft Skills</strong></summary>
+
+<br>
+
+- **Trabalho em Equipe**  
+  Colaboração ativa no desenvolvimento do projeto, alinhando decisões técnicas e dividindo responsabilidades entre os membros do grupo.
+
+- **Resolução de Problemas**  
+  Identificação e correção de falhas na aplicação, análise de bugs e busca por soluções eficientes durante o desenvolvimento.
+
+- **Pensamento Analítico**  
+  Interpretação das necessidades do sistema e tradução em funcionalidades estruturadas, especialmente na modelagem de dados e regras de negócio.
+
+- **Organização**  
+  Estruturação clara do projeto, mantendo padrões de código e organização de arquivos para facilitar entendimento e manutenção.
+
+- **Comunicação Técnica**  
+  Explicação de funcionalidades, decisões de desenvolvimento e funcionamento do sistema de forma clara em documentação e apresentações.
+
+- **Autonomia e Aprendizado Contínuo**  
+  Busca ativa por conhecimento em tecnologias como JavaFX, banco de dados e boas práticas de desenvolvimento durante a construção do projeto.
+
+</details>
 
 </details>
 
