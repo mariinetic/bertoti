@@ -324,6 +324,41 @@ Os relacionamentos foram definidos para refletir o funcionamento real do sistema
   
 </details>
 
+<details>
+<summary><b>Refatoração das Telas</b></summary>
+
+Todas as telas da aplicação foram refeitas em **JavaFX**, com foco na experiência do usuário. A interface foi redesenhada para ser mais intuitiva, acessível e visualmente consistente.
+
+### Tela Principal do Aluno
+A tela principal do aluno reuniu as informações essenciais em um único lugar. À esquerda, o perfil do usuário exibiu nome, RA e e-mail.
+
+<p align="center">
+  <img width="632" src="https://github.com/user-attachments/assets/1328c01c-6623-486a-92d0-596bef6a6514" alt="Tela Inicial">
+</p>
+
+### Tela de Avaliação
+Nesta tela, o aluno realizou a avaliação de um colega de grupo. Os critérios — **Qualidade do Código**, **Pontualidade** e **Trabalho em Equipe** — foram exibidos com pontuação de 0 a 3.
+
+<p align="center">
+  <img width="751" src="https://github.com/user-attachments/assets/e7a34199-505b-4514-a8a5-c460a0c0ea64" alt="Avaliação">
+</p>
+
+### Painel do Professor
+O painel do professor foi organizado em cards com ícones ilustrativos para cada funcionalidade: **Gerenciar Equipes**, **Administração de Critérios** e **Configurar Cronograma**.
+
+<p align="center">
+  <img width="650" src="https://github.com/user-attachments/assets/95fb6bd2-049e-47df-96b5-77649d6c1d62" alt="Admin">
+</p>
+
+### Administração de Critérios
+Nesta tela, o professor visualizou todos os critérios cadastrados em uma tabela com ID, nome, descrição e status.
+
+<p align="center">
+  <img width="586" src="https://github.com/user-attachments/assets/2cf87342-67c4-42d7-b0b2-f997735fc5ac" alt="Critérios">
+</p>
+
+</details>
+
 <img width="933" height="153" alt="image" src="https://github.com/user-attachments/assets/051ad8aa-9248-4dee-804f-7dcf9d5fb227" />
 
 <details>
