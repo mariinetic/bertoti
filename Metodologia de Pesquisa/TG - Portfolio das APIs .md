@@ -886,6 +886,18 @@ A plataforma é concebida para oferecer análise multidimensional, contemplando 
 
 <img width="930" height="163" alt="image" src="https://github.com/user-attachments/assets/fe45a5b8-5aa1-4589-880c-0f9ab8c7d89d" />
 
+<details>
+  <summary><strong>Trilha de Desenvolvimento</strong></summary>
+
+
+</details>
+
+<details>
+  <summary><strong>Trilha DevOps</strong></summary>
+
+
+</details>
+
 
 
 
