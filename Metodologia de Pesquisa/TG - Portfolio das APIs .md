@@ -837,7 +837,7 @@ Atuei de forma proativa em diferentes camadas do sistema, desde ajustes de inter
 </details>
 
 ---
-# Strategic Cost Analytics (SCARS) (5º semestre)
+# Strategic Cost Analytics (SCARS) (5º semestre) ![Status](https://img.shields.io/badge/Em%20Progresso-FFA500)
 ![Semestre](https://img.shields.io/badge/semestre-5%C2%BA%20%C2%B7%202026-lightgrey?logo=googledocs&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white)
