@@ -888,13 +888,98 @@ A plataforma é concebida para oferecer análise multidimensional, contemplando 
 
 <details>
   <summary><strong>Trilha de Desenvolvimento</strong></summary>
+  
+  <br>
+  
+<details>
+  <summary><strong>Tela de Materiais</strong></summary>
+  A tela de Materiais foi desenvolvida com base no wireframe disponibilizado pelo Product Owner na primeira sprint, servindo como referência inicial para a definição da estrutura, hierarquia de informações e organização dos componentes visuais.
+<img width="1340" height="556" alt="Captura de tela 2026-04-05 183000" src="https://github.com/user-attachments/assets/f515674f-aef1-475c-9790-cb0d1d9dc437" />
 
+O foco principal da implementação foi garantir a entrega de todas as seções previstas no protótipo do Figma, respeitando tanto os requisitos funcionais quanto a consistência visual do design proposto. A interface foi construída visando clareza na apresentação dos dados e suporte à análise estratégica.
+<img width="1338" height="335" alt="Captura de tela 2026-04-05 183010" src="https://github.com/user-attachments/assets/b5858d8b-fb51-450c-ae78-158979129113" />
+
+Entre os principais elementos implementados, destacam-se:
+
+
+
+Cards de indicadores (KPIs) no topo da tela, apresentando:
+Custo total de materiais
+Total de itens
+Custo médio por item
+Camada de filtros dinâmicos, permitindo segmentação por:
+Período
+Programa
+Projeto
+Material
+Campo de busca textual
+Visualizações gráficas para समर्थन analítico:
+Top 10 materiais por custo
+Top 10 por quantidade consumida
+Custo de materiais por projeto
+Evolução temporal dos custos
+Tabela detalhada de materiais, contemplando:
+Informações como material, projeto, programa e fornecedor
+Quantidade, valor unitário e valor total
+Classificação por categoria
+Paginação para navegação entre registros
+<img width="1337" height="485" alt="Captura de tela 2026-04-05 183018" src="https://github.com/user-attachments/assets/74fe554b-be54-402b-b650-023c3c8da109" />
+
+A implementação priorizou modularização dos componentes, facilitando manutenção e escalabilidade, além de seguir boas práticas de organização de layout e reutilização de elementos.
+
+
+</details>
 
 </details>
 
 <details>
   <summary><strong>Trilha DevOps</strong></summary>
 
+<br>
+
+<details>
+  <summary><strong>Monitoramento</strong></summary>
+  
+A trilha de monitoramento contemplou o planejamento e a estruturação completa da observabilidade da aplicação, inicialmente em ambiente de desenvolvimento (dev) e posteriormente preparada para evolução em produção (prod).
+
+O processo teve início com a definição da estratégia de monitoramento da interface, considerando métricas relevantes para análise de desempenho, comportamento e consumo de recursos. A implementação foi guiada pela necessidade de fornecer visibilidade operacional e suporte à tomada de decisão técnica.
+
+<img width="270" height="38" alt="Captura de tela 2026-04-05 183716" src="https://github.com/user-attachments/assets/55c7f8b0-9edb-45c7-a636-f4291ba55fe2" />
+
+
+No ambiente de desenvolvimento, foi configurada uma stack baseada em:
+
+Prometheus, responsável pela coleta e armazenamento de métricas da aplicação
+Alertmanager, para gerenciamento e disparo de alertas
+Grafana, para visualização dos dados por meio de dashboards interativos
+
+Foram implementados:
+
+Arquivos de configuração do Prometheus (prometheus.yml) com definição de targets e scraping
+Regras de alerta (alerts.yml) para monitoramento de condições críticas
+Provisionamento automático de dashboards no Grafana
+Configuração de datasources integrando Prometheus ao Grafana
+Dashboard inicial de visão geral (sca-production-overview.json)
+
+<img width="293" height="349" alt="Captura de tela 2026-04-05 183803" src="https://github.com/user-attachments/assets/1fc4f8aa-2e4b-499b-bd20-347e1183e0cb" />
+
+Além disso, foi estruturada uma camada complementar de logs utilizando:
+
+Nginx como ponto de entrada
+Logstash para processamento de logs
+Organização de pipelines (logstash.conf) e armazenamento local (app.log)
+
+A infraestrutura foi orquestrada utilizando dois Docker Compose distintos, separados por contexto:
+<img width="289" height="65" alt="Captura de tela 2026-04-05 183727" src="https://github.com/user-attachments/assets/6078dafb-67e2-491e-9b05-fb35794c148b" />
+
+Docker de desenvolvimento (dev): voltado para testes locais, validação de métricas e ajustes rápidos
+Docker de produção (prod): preparado para execução estável, com foco em confiabilidade, isolamento e escalabilidade
+
+Essa separação permitiu maior controle sobre o ciclo de vida da aplicação, garantindo que o ambiente produtivo mantenha configurações mais robustas, enquanto o ambiente de desenvolvimento permanece flexível para evolução contínua.
+
+Como resultado, a trilha estabeleceu uma base sólida de monitoramento, observabilidade e análise, integrando métricas, logs e alertas em uma arquitetura coesa e escalável.
+
+</details>
 
 </details>
 
