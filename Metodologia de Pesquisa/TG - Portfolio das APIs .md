@@ -981,6 +981,28 @@ Como resultado, a trilha estabeleceu uma base sólida de monitoramento, observab
 
 </details>
 
+<details>
+  <summary><strong>Documentação e testes da minhas features</strong></summary>
+
+Embora eu não fosse a responsável principal pela trilha de testes e documentação, mantive como prática constante ao longo do projeto garantir que todas as features desenvolvidas fossem devidamente documentadas e testadas.
+
+Cada funcionalidade implementada seguiu um fluxo consistente de validação, incluindo:
+
+Testes funcionais, assegurando que os requisitos fossem atendidos conforme o esperado
+Validação de integração, principalmente entre frontend, API e dados apresentados nos dashboards
+Verificação de consistência dos dados, especialmente em telas analíticas como a de materiais
+
+No aspecto de documentação, foi adotada uma abordagem contínua:
+
+Registro das funcionalidades desenvolvidas e suas respectivas regras de negócio
+Documentação das decisões técnicas relevantes
+Organização das entregas para facilitar entendimento e manutenção por outros membros do time
+
+Essa postura contribuiu para maior rastreabilidade, qualidade das entregas e facilidade de evolução do sistema, mesmo sem atuação direta como responsável pela trilha.
+
+
+</details>
+
 </details>
 
 
