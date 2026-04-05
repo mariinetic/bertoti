@@ -834,8 +834,58 @@ Atuei de forma proativa em diferentes camadas do sistema, desde ajustes de inter
 
 </details>
 
-
-
-
 </details>
+
+---
+# Strategic Cost Analytics (SCARS) (5º semestre)
+![Semestre](https://img.shields.io/badge/semestre-5%C2%BA%20%C2%B7%202026-lightgrey?logo=googledocs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?logo=vue.js&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![DevOps](https://img.shields.io/badge/DevOps-0A0A0A?logo=azuredevops&logoColor=white)
+
+Este projeto foi desenvolvido pela Steam Ducks, equipe formada por estudantes do 5º semestre do curso de Banco de Dados da FATEC São José dos Campos.
+
+A proposta consiste na construção do SCARS, uma solução analítica voltada à consolidação e visualização de custos de projetos estratégicos, desenvolvida em parceria com a SIATT.
+
+<p align="center">
+<img width="659" height="133" alt="image" src="https://github.com/user-attachments/assets/13d090d0-3d73-43ce-b6c0-5eb4d04ddaf5" />
+  <br/><br/>
+  <a href="https://github.com/Steam-Ducks/strategic-cost-analytics?tab=readme-ov-file">
+    <img src="https://img.shields.io/badge/Repositório-GitHub-FF69B4?logo=github&logoColor=white" alt="Repositório" />
+  </a>
+</p>
+
+<details>
+  <summary>Detalhes do projeto</summary>
+
+![Brown Minimalist Welcome Message X_Twitter Header](https://github.com/user-attachments/assets/f3d75862-9269-4cc3-8754-7818520bc0f6)
+
+O projeto tem como objetivo projetar e implementar um Data Warehouse capaz de consolidar dados relacionados a materiais, horas técnicas, projetos, programas e indicadores orçamentários, permitindo análises estruturadas e históricas para apoiar a tomada de decisão.
+
+A plataforma é concebida para oferecer análise multidimensional, contemplando diferentes perspectivas — como tempo, programa, projeto, material, colaborador e situação financeira — ampliando a visibilidade, rastreabilidade e previsibilidade das iniciativas estratégicas.
+
+<h2 align="center">Tecnologias</h2>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+</p>
+
+<img width="930" height="163" alt="image" src="https://github.com/user-attachments/assets/fe45a5b8-5aa1-4589-880c-0f9ab8c7d89d" />
+
+
+
 
