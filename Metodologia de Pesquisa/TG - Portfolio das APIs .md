@@ -1009,7 +1009,7 @@ Essa postura contribuiu para maior rastreabilidade, qualidade das entregas e fac
 
 ---
 
-# (6º semestre) ![Semestre](https://img.shields.io/badge/6%C2%BA%20Semestre%20·%202026%20-%20Em%20Breve-FF69B4?style=flat-square&logo=googledocs&logoColor=white)
+# (6º semestre) ![Status](https://img.shields.io/badge/Em%20Breve-FF69B4?style=flat-square)
 ![Semestre](https://img.shields.io/badge/semestre-6%C2%BA%20%C2%B7%202026-lightgrey?logo=googledocs&logoColor=white)
 
 
