@@ -1,4 +1,5 @@
-<img width="1500" height="500" alt="Brown Minimalist Welcome Message XTwitter Header" src="https://github.com/user-attachments/assets/99a4e32f-dbe6-4404-b3cf-6a8be7a001ab" />
+
+![Brown Minimalist Welcome Message XTwitter Header (1)](https://github.com/user-attachments/assets/ba1954e7-424c-4878-8861-4e1601a8eed7)
 
 Graduanda em *Banco de Dados* (formatura prevista para 2026) e atualmente estagiária em *Desenvolvimento Fullstack e Inteligência Artificial na Ericsson*. Sou apaixonada por inovação e organização, acreditando no poder dos dados para transformar negócios e gerar valor. Busco constante aprendizado para evoluir como profissional em dados e machine learning.
 
@@ -20,7 +21,8 @@ Graduanda em *Banco de Dados* (formatura prevista para 2026) e atualmente estagi
   </a>
 </p>
 
-![Brown Minimalist Welcome Message XTwitter Header](https://github.com/user-attachments/assets/9c0a0a66-002d-47d0-961e-45f3389eb51c)
+
+![Brown Minimalist Welcome Message X_Twitter Header](https://github.com/user-attachments/assets/435c6d14-6acc-4bf8-93bf-7f380acca4db)
 
 
 ---
