@@ -28,7 +28,7 @@ Graduanda em *Banco de Dados* (formatura prevista para 2026) e atualmente estagi
 ---
 # Calculadora Científica (1º semestre)
 
-![Semestre](https://img.shields.io/badge/semestre-1%C2%BA%20%C2%B7%202024-lightgrey?logo=googledocs&logoColor=white)
+![Semestre](https://img.shields.io/badge/semestre-1%C2%BA%20%C2%B7%202024-FF69B4?logo=googledocs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![Terminal](https://img.shields.io/badge/Terminal%20App-222222?logo=gnubash&logoColor=white)
 
@@ -185,7 +185,7 @@ Um ponto importante da implementação foi a decisão de não utilizar funções
 
 ---
 # Pacer (2º semestre)
-![Semestre](https://img.shields.io/badge/semestre-2%C2%BA%20%C2%B7%202024-lightgrey?logo=googledocs&logoColor=white)
+![Semestre](https://img.shields.io/badge/semestre-2%C2%BA%20%C2%B7%202024-FF69B4?logo=googledocs&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
 ![JavaFX](https://img.shields.io/badge/JavaFX-007396?logo=openjdk&logoColor=white)
 ![SceneBuilder](https://img.shields.io/badge/Scene%20Builder-ED8B00?logo=openjdk&logoColor=white)
@@ -420,7 +420,7 @@ Nesta tela, o professor visualizou todos os critérios cadastrados em uma tabela
 
 ---
 # Timesync (3º semestre)
-![Semestre](https://img.shields.io/badge/semestre-3%C2%BA%20%C2%B7%202025-lightgrey?logo=googledocs&logoColor=white)
+![Semestre](https://img.shields.io/badge/semestre-3%C2%BA%20%C2%B7%202025-FF69B4?logo=googledocs&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white)
@@ -633,7 +633,7 @@ Essa experiência foi determinante para consolidar minha capacidade de **desenvo
 
 ---
 # CIMOB (4º semestre)
-![Semestre](https://img.shields.io/badge/semestre-4%C2%BA%20%C2%B7%202025-lightgrey?logo=googledocs&logoColor=white)
+![Semestre](https://img.shields.io/badge/semestre-4%C2%BA%20%C2%B7%202025-FF69B4?logo=googledocs&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
 ![JavaFX](https://img.shields.io/badge/Vue-007396?logo=openjdk&logoColor=white)
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?logo=oracle&logoColor=white)
@@ -838,7 +838,7 @@ Atuei de forma proativa em diferentes camadas do sistema, desde ajustes de inter
 
 ---
 # Strategic Cost Analytics (SCARS) (5º semestre) ![Status](https://img.shields.io/badge/Em%20Progresso-FF69B4?style=flat-square)
-![Semestre](https://img.shields.io/badge/semestre-5%C2%BA%20%C2%B7%202026-lightgrey?logo=googledocs&logoColor=white)
+![Semestre](https://img.shields.io/badge/semestre-5%C2%BA%20%C2%B7%202026-FF69B4?logo=googledocs&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
@@ -1010,7 +1010,7 @@ Essa postura contribuiu para maior rastreabilidade, qualidade das entregas e fac
 ---
 
 # (6º semestre) ![Status](https://img.shields.io/badge/Em%20Breve-FF69B4?style=flat-square)
-![Semestre](https://img.shields.io/badge/semestre-6%C2%BA%20%C2%B7%202026-lightgrey?logo=googledocs&logoColor=white)
+![Semestre](https://img.shields.io/badge/semestre-6%C2%BA%20%C2%B7%202026-FF69B4?logo=googledocs&logoColor=white)
 
 
 <br>
