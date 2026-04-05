@@ -8,7 +8,7 @@ Graduanda em *Banco de Dados* (formatura prevista para 2026) e atualmente estagi
 </p>
 
 <p align="center">
-  <a href="mailto:marianaoliveiry18@gmail.com" title="Gmail">
+  <a href="mailto:marianaoliveiray21@gmail.com" title="Gmail">
     <img src="https://img.shields.io/badge/-Gmail-FF69B4?style=flat-square&labelColor=FF69B4&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
 
@@ -16,7 +16,7 @@ Graduanda em *Banco de Dados* (formatura prevista para 2026) e atualmente estagi
     <img src="https://img.shields.io/badge/-LinkedIn-FF69B4?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
 
-  <a href="mailto:mariana.oliveira59@fatec.sp.gov.br" title="Outlook">
+  <a href="mailto:mariana.oliveira7@aluno.cps.sp.gov.br" title="Outlook">
     <img src="https://img.shields.io/badge/-Outlook-FF69B4?style=flat-square&labelColor=FF69B4&logo=microsoft-outlook&logoColor=white" alt="Outlook"/>
   </a>
 </p>
