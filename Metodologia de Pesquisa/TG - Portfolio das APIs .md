@@ -1,6 +1,10 @@
 <img width="1500" height="500" alt="Brown Minimalist Welcome Message XTwitter Header" src="https://github.com/user-attachments/assets/037b94f7-36a0-4820-8684-5e83f9450776" />
 
-Graduanda em *Banco de Dados* (formatura prevista para 2026) e atualmente estagiária em *Desenvolvimento Fullstack e Inteligência Artificial na Ericsson*. Sou apaixonada por inovação e organização, acreditando no poder dos dados para transformar negócios e gerar valor. Busco constante aprendizado para evoluir como profissional em dados e machine learning.
+Atualmente curso graduação em Banco de Dados, com previsão de conclusão em 2026, e iniciei minha trajetória profissional como estagiária em Inteligência Artificial e Desenvolvimento Full-Stack na Ericsson. Nessa função, desenvolvi habilidades em Python, Java, machine learning, automação com IA e LLMs, aplicando esses conhecimentos na criação de soluções inteligentes e no desenvolvimento de aplicações backend que otimizam processos e melhoram fluxos de trabalho.
+
+Valorizo o trabalho em equipe e a colaboração, buscando aprender continuamente com outras pessoas enquanto contribuo ativamente para os objetivos dos projetos. Acredito que a combinação entre soluções baseadas em IA e um backend bem estruturado é essencial para transformar ideias em resultados concretos.
+
+Sou apaixonada por inteligência artificial, desenvolvimento de software e dados, e tenho como objetivo evoluir constantemente, aprimorando minhas habilidades e contribuindo de forma efetiva para projetos e equipes, entregando soluções práticas, escaláveis e inteligentes com profissionalismo e dedicação.
 
 <p align="center">
   <strong>Meus contatos!</strong>
