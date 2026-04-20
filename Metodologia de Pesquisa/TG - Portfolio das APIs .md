@@ -257,13 +257,17 @@ Aplicação desktop desenvolvida no 2º semestre com Java, uma solução inovado
   
   ![Brown Minimalist Welcome Message X_Twitter Header](https://github.com/user-attachments/assets/f3d75862-9269-4cc3-8754-7818520bc0f6)
 
-  O projeto foi desenvolvido no segundo semestre de 2024 no contexto da Aprendizagem por Projetos Integrados (API), com o objetivo de automatizar e padronizar o processo de avaliação de competências no PACER, substituindo o modelo manual sujeito a erros e inconsistências.
+Projeto desenvolvido no segundo semestre de 2024 no contexto da Aprendizagem por Projetos Integrados (API), em parceria com a FATEC.
 
-A solução consistiu em um sistema web que permite a avaliação entre membros de equipes ao final de cada Sprint, com armazenamento seguro dos dados e geração de relatórios detalhados para professores, incluindo médias por aluno e por grupo.
+**Contexto:** Desenvolvimento de uma solução prática para apoiar o processo de avaliação de competências no PACER.
 
-Entre as principais funcionalidades, destacam-se o gerenciamento de grupos, personalização de critérios de avaliação, controle automático do calendário de Sprints com base na data e autenticação de usuários, garantindo a integridade e a segurança do processo.
+**Problema:** O processo de avaliação era manual, sujeito a erros, inconsistências e dificuldade na organização e análise dos dados.
 
-O projeto teve foco prático, contribuindo para o desenvolvimento de habilidades em organização de dados, automação de processos e construção de sistemas mais eficientes.
+**Solução:** Desenvolvimento de um sistema web para avaliação entre membros de equipes ao final de cada Sprint, com armazenamento seguro das informações e geração de relatórios com médias por aluno e por grupo.
+
+Entre as funcionalidades implementadas estão gerenciamento de grupos, personalização de critérios de avaliação, controle automático do calendário de Sprints com base na data e autenticação de usuários.
+
+O projeto contribuiu para o desenvolvimento de habilidades em organização de dados, automação de processos e construção de sistemas mais eficientes.
 
 <h2 align="center">Tecnologias</h2>
 
@@ -493,15 +497,17 @@ O "Sistema de Ponto" é uma aplicação web do 3º semestre projetada para geren
 
 ![Brown Minimalist Welcome Message X_Twitter Header](https://github.com/user-attachments/assets/f3d75862-9269-4cc3-8754-7818520bc0f6)
 
-O projeto TIMESYNC foi desenvolvido com o objetivo de automatizar o controle de ponto e o monitoramento de equipes, substituindo processos manuais por uma solução digital integrada, mais segura, padronizada e escalável
+Projeto TIMESYNC desenvolvido em parceria com a Altave, com foco na automação do controle de ponto e monitoramento de equipes.
 
-A aplicação permite registrar, armazenar e analisar dados de presença e jornada de trabalho em tempo real, centralizando informações que antes eram dispersas e facilitando a gestão operacional, com isso tornando possível acompanhar o desempenho dos colaboradores, identificar padrões e apoiar a tomada de decisão de forma mais estratégica
+**Contexto:** Desenvolvimento de uma solução digital para substituir processos manuais de controle de jornada de trabalho, trazendo mais padronização e eficiência.
 
-A solução foi construída seguindo uma arquitetura full stack, com frontend em Angular e backend em Java utilizando o Spring Framework, além da persistência em banco de dados MySQL, garantindo comunicação eficiente entre as camadas, consistência dos dados e maior confiabilidade no sistema
+**Problema:** O controle de ponto era realizado de forma manual, com dados dispersos, maior risco de erros e dificuldade na análise e gestão das informações.
 
-Entre as principais funcionalidades implementadas estão o registro de ponto com armazenamento estruturado em banco de dados, a visualização de informações por colaborador, empresa e período, a aplicação de filtros dinâmicos para consultas específicas, a geração de relatórios com dados consolidados, o controle de autenticação e autorização de usuários e a integração entre múltiplos módulos da aplicação
+**Solução:** Desenvolvimento de um sistema web para registro, armazenamento e análise de dados de presença em tempo real, centralizando informações e facilitando a gestão operacional e a tomada de decisão.
 
-O desenvolvimento do projeto também envolveu preocupações com usabilidade, organização do código e separação de responsabilidades, permitindo que o sistema fosse facilmente mantido e evoluído ao longo do tempo
+Entre as funcionalidades implementadas estão registro de ponto com persistência em banco de dados, visualização por colaborador, empresa e período, aplicação de filtros dinâmicos, geração de relatórios, autenticação e autorização de usuários.
+
+O projeto contribuiu para o desenvolvimento de habilidades em arquitetura de sistemas, organização de código, integração entre componentes e construção de soluções escaláveis e de fácil manutenção.
 
 <h2 align="center">Tecnologias</h2>
 
@@ -708,9 +714,17 @@ Aplicação desktop desenvolvida no 4º semestre com Java, uma solução inovado
 
 ![Brown Minimalist Welcome Message X_Twitter Header](https://github.com/user-attachments/assets/f3d75862-9269-4cc3-8754-7818520bc0f6)
 
-O sistema proposto teve como objetivo a manipulação e análise de dados de radares de trânsito de São José dos Campos, permitindo a visualização de informações em tempo real por meio de dashboards interativos. Foi construído sobre um banco de dados relacional, com API RESTful em Spring Boot e atualizações via WebSocket, garantindo acesso seguro e eficiente.
+Projeto desenvolvido com foco na análise e visualização de dados de radares de trânsito de São José dos Campos.
 
-A interface foi desenvolvida em Vue.js, sendo responsiva e intuitiva, integrando gráficos e mapas georreferenciados. Isso permitiu o monitoramento de indicadores e o disparo de alertas automáticos, facilitando a tomada de decisão na gestão do tráfego urbano.
+**Contexto:** Criação de uma solução para monitoramento de dados de tráfego urbano em tempo real, com apoio à gestão e tomada de decisão.
+
+**Problema:** Dificuldade na centralização, análise e visualização eficiente dos dados de radares, limitando o acompanhamento de indicadores e a identificação rápida de situações relevantes.
+
+**Solução:** Desenvolvimento de um sistema para manipulação e análise de dados com dashboards interativos em tempo real, permitindo a visualização de informações por meio de gráficos e mapas georreferenciados.
+
+Entre as funcionalidades implementadas estão atualização em tempo real, monitoramento de indicadores, visualização interativa e disparo de alertas automáticos.
+
+O projeto contribuiu para o desenvolvimento de habilidades em análise de dados, construção de dashboards e desenvolvimento de sistemas voltados à tomada de decisão.
 
 <h2 align="center">Tecnologias</h2>
 
@@ -915,9 +929,17 @@ A proposta consiste na construção do SCARS, uma solução analítica voltada �
 
 ![Brown Minimalist Welcome Message X_Twitter Header](https://github.com/user-attachments/assets/f3d75862-9269-4cc3-8754-7818520bc0f6)
 
-O projeto tem como objetivo projetar e implementar um Data Warehouse capaz de consolidar dados relacionados a materiais, horas técnicas, projetos, programas e indicadores orçamentários, permitindo análises estruturadas e históricas para apoiar a tomada de decisão.
+Projeto desenvolvido em parceria com a SIATT, com foco na construção de um Data Warehouse para apoio à tomada de decisão.
 
-A plataforma é concebida para oferecer análise multidimensional, contemplando diferentes perspectivas — como tempo, programa, projeto, material, colaborador e situação financeira — ampliando a visibilidade, rastreabilidade e previsibilidade das iniciativas estratégicas.
+**Contexto:** Desenvolvimento de uma solução para consolidar dados estratégicos de projetos, programas, materiais, horas técnicas e indicadores orçamentários.
+
+**Problema:** Informações distribuídas e de difícil análise, limitando a visão histórica, a rastreabilidade e o acompanhamento eficiente das iniciativas.
+
+**Solução:** Projeto e implementação de um Data Warehouse capaz de integrar e organizar dados, permitindo análises estruturadas e históricas.
+
+A solução possibilita análise multidimensional, considerando diferentes perspectivas como tempo, programa, projeto, material, colaborador e situação financeira, ampliando a visibilidade e o suporte à tomada de decisão.
+
+O projeto contribuiu para o desenvolvimento de habilidades em modelagem de dados, organização de informações e construção de soluções voltadas à análise estratégica.
 
 <h2 align="center">Tecnologias</h2>
 
