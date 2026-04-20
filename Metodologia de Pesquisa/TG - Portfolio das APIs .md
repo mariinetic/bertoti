@@ -94,12 +94,18 @@ Aplicação de terminal com operações matemáticas, conversões numéricas e v
 ![Brown Minimalist Welcome Message X_Twitter Header](https://github.com/user-attachments/assets/f3d75862-9269-4cc3-8754-7818520bc0f6)
 
 
+Este projeto foi desenvolvido no primeiro semestre de 2024 em parceria com a FATEC, com o objetivo de consolidar conceitos fundamentais de lógica de programação e implementação de algoritmos.
 
-O projeto foi desenvolvido no primeiro semestre de 2024 com o objetivo de consolidar conceitos fundamentais de lógica de programação e implementação de algoritmos. Ao longo do desenvolvimento, foi possível aplicar na prática estruturas de decisão, repetição e manipulação de dados, fortalecendo o raciocínio lógico e a organização do código.
+**Contexto:** Projeto acadêmico realizado em parceria com a instituição de ensino, com foco na aplicação prática de conceitos essenciais de programação.
 
-A solução consistiu em uma calculadora científica com interface textual, capaz de executar múltiplas operações em uma única execução. Entre as funcionalidades implementadas estiveram as operações básicas (soma, subtração, multiplicação e divisão), cálculo de fatorial, resolução de função do segundo grau e conversões entre diferentes bases numéricas, como binário, decimal, octal e hexadecimal. Também foi incluída a funcionalidade de concatenação de strings.
+**Problema:** Necessidade de aplicar, de forma prática e integrada, conceitos iniciais de programação, como estruturas de decisão, repetição e manipulação de dados, além de implementar cálculos matemáticos e financeiros em uma solução única, organizada e funcional.
 
-Além disso, foram desenvolvidos algoritmos para cálculos financeiros, como juros simples e juros compostos, permitindo aplicar fórmulas matemáticas em contextos práticos. O projeto teve caráter didático e serviu como base para a evolução em conceitos mais avançados de programação e desenvolvimento de sistemas.
+**Solução:** Foi desenvolvida uma calculadora científica com interface textual, capaz de executar múltiplas operações em uma única execução. Entre as funcionalidades implementadas estão operações básicas como soma, subtração, multiplicação e divisão, cálculo de fatorial, resolução de equações do segundo grau e conversões entre diferentes bases numéricas, como binário, decimal, octal e hexadecimal, além de concatenação de strings.
+
+Também foram implementados algoritmos para cálculos financeiros, como juros simples e compostos, permitindo a aplicação prática de fórmulas matemáticas em diferentes cenários.
+
+O projeto contribuiu significativamente para o desenvolvimento do raciocínio lógico, organização de código e consolidação da base necessária para evolução em conceitos mais avançados de programação e desenvolvimento de sistemas.
+
 
 <h2 align="center">Tecnologias</h2>
 
