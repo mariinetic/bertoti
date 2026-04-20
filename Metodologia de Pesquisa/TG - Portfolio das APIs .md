@@ -1093,6 +1093,3 @@ Essa postura contribuiu para maior rastreabilidade, qualidade das entregas e fac
 ---
 
 ![Brown Minimalist Welcome Message XTwitter Header (1)](https://github.com/user-attachments/assets/89030cf3-8b72-4d0b-8b0f-6286b52520a3)
-
-
-
