@@ -21,6 +21,48 @@ Graduanda em *Banco de Dados* (formatura prevista para 2026) e atualmente estagi
 </p>
 
 
+<div align="center">
+
+<details>
+  <summary><strong>Meus principais conhecimentos</strong></summary>
+  <br>
+
+  <h3>AI & Machine Learning</h3>
+  <p>
+    <img src="https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+    <img src="https://img.shields.io/badge/AI_Agents-4B8BBE?style=for-the-badge&logo=openai&logoColor=white" />
+  </p>
+
+  <h3>Backend</h3>
+  <p>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
+    <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
+  </p>
+
+  <h3>Databases</h3>
+  <p>
+    <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+    <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+    <img src="https://img.shields.io/badge/MongoDB-4DB33D?style=for-the-badge&logo=mongodb&logoColor=white" />
+  </p>
+
+  <h3>DevOps & Tools</h3>
+  <p>
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+    <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+    <img src="https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+    <img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+  </p>
+
+</details>
+
+</div>
+
+
+---
+
 ![Brown Minimalist Welcome Message X_Twitter Header](https://github.com/user-attachments/assets/435c6d14-6acc-4bf8-93bf-7f380acca4db)
 
 
