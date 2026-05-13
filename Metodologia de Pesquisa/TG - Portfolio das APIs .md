@@ -1,4 +1,4 @@
-<img width="1500" height="500" alt="Brown Minimalist Welcome Message XTwitter Header" src="https://github.com/user-attachments/assets/037b94f7-36a0-4820-8684-5e83f9450776" />
+<img width="1500" height="500" alt="Brown Minimalist Welcome Message XTwitter Header" src="https://github.com/user-attachments/assets/72ef72e5-1b9f-4e33-829e-90e6cfb74873" />
 
 Atualmente curso graduação em Banco de Dados na FATEC São José dos Campos, com previsão de conclusão em 2026. Vim parar na FATEC após perceber que precisava de uma formação mais sólida e orientada à prática para me destacar na área de tecnologia. Desde então, iniciei minha trajetória profissional como estagiária em Inteligência Artificial e Desenvolvimento Full-Stack na Ericsson, onde desenvolvi habilidades em Python, Java, machine learning, automação com IA e LLMs, aplicando esses conhecimentos na criação de soluções inteligentes e no desenvolvimento de aplicações backend que otimizam processos e melhoram fluxos de trabalho.
 
