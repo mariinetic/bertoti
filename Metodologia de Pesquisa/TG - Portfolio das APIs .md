@@ -769,7 +769,7 @@ Cards de KPIs no topo (custo total, total de itens, custo médio por item), cama
 </details>
 
 <details>
-  <summary><strong>Trilha DevOps — Monitoramento</strong></summary>
+  <summary><strong>Trilha DevOps — Monitoramento Sprint 1 e 2</strong></summary>
 
 Estruturei a observabilidade da aplicação com Prometheus (coleta de métricas), Alertmanager (regras de alerta em `alerts.yml`) e Grafana (dashboards provisionados automaticamente via `sca-production-overview.json`). Configurei também uma camada de logs com Nginx, Logstash e pipeline `logstash.conf`, orquestrada com dois Docker Compose distintos (dev e prod).
 
